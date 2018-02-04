@@ -34,4 +34,21 @@
       #menu #menu-timo ul li.active {
         border-bottom: 2px solid black; }
 
+#footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around; }
+  #footer .footer-title {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px; }
+  #footer ul {
+    margin: 0px;
+    padding: 0px; }
+    #footer ul li {
+      list-style: none; }
+
 /*# sourceMappingURL=style.css.map */

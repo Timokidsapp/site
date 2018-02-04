@@ -56,11 +56,35 @@ $white: white;
                 padding-right: 20px;
                 padding-top: 10px;
                 padding-bottom: 10px;
-                
+
                 &.active {
                     border-bottom: 2px solid $blueDark;
                 }
             }
+        }
+    }
+}
+
+
+//FOOTER
+#footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $blueDark;
+    color: $white;
+    display: flex;
+    justify-content: space-around;
+
+    .footer-title {
+        border-bottom: 2px solid $white;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    ul {
+        margin: 0px;
+        padding: 0px;
+        li {
+            list-style: none;
         }
     }
 }
