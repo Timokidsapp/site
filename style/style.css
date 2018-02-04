@@ -1,0 +1,37 @@
+@import url(../node_modules/normalize.css/normalize.css);
+.inline-list {
+  padding: 0px;
+  margin: 0px; }
+  .inline-list li {
+    display: inline-flex;
+    list-style: none; }
+
+#menu {
+  width: 100%; }
+  #menu #menu-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white; }
+    #menu #menu-top ul li {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      #menu #menu-top ul li.active {
+        color: blue; }
+      #menu #menu-top ul li.blueBack {
+        background-color: blue; }
+  #menu #menu-timo {
+    background-color: white;
+    display: flex;
+    justify-content: space-between; }
+    #menu #menu-timo ul li {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      #menu #menu-timo ul li.active {
+        border-bottom: 2px solid black; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,66 @@
+
+@import url(../node_modules/normalize.css/normalize.css);
+
+
+//COLORS
+$blueDark: black;
+$blueLight: blue;
+$gray: gray;
+$grayDark: gray;
+$white: white;
+
+//Inline ul,li
+.inline-list {
+    padding: 0px;
+    margin: 0px;
+    li { 
+        display: inline-flex;
+        list-style: none; 
+    }
+}
+
+//Menu
+#menu {
+    width: 100%;
+    
+    
+    #menu-top {
+        display: flex;
+        justify-content: space-between;
+        background-color: $blueDark;
+        color: $white;
+        ul {
+            li { 
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+
+                &.active {
+                    color: $blueLight;
+                }
+                &.blueBack {
+                    background-color: $blueLight;
+                }
+            }
+        }    
+    }
+
+    #menu-timo {
+        background-color: $white;
+        display: flex;
+        justify-content: space-between;
+        ul {
+            li { 
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
+                &.active {
+                    border-bottom: 2px solid $blueDark;
+                }
+            }
+        }
+    }
+}
