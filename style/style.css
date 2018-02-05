@@ -6,6 +6,10 @@
     display: inline-flex;
     list-style: none; }
 
+.title {
+  padding-bottom: 5px;
+  border-bottom: 2px solid black; }
+
 #menu {
   width: 100%; }
   #menu #menu-top {
@@ -33,6 +37,10 @@
       padding-bottom: 10px; }
       #menu #menu-timo ul li.active {
         border-bottom: 2px solid black; }
+
+#home-our-products {
+  display: flex;
+  justify-content: space-around; }
 
 #footer {
   padding-top: 20px;

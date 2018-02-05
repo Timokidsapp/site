@@ -19,6 +19,13 @@ $white: white;
     }
 }
 
+//TITLE
+.title {
+    padding-bottom: 5px;
+    border-bottom: 2px solid $blueDark;
+
+}
+
 //Menu
 #menu {
     width: 100%;
@@ -63,6 +70,14 @@ $white: white;
             }
         }
     }
+}
+
+
+
+//HOME-PRODUCTS
+#home-our-products {
+    display: flex;
+    justify-content: space-around;
 }
 
 
