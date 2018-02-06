@@ -1,13 +1,26 @@
 
 @import url(../node_modules/normalize.css/normalize.css);
+@import url(../assets/fonts/stylesheet.css);
 
+
+//GLOBALS
+
+div, ul, li, img {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
 
 //COLORS
-$blueDark: black;
-$blueLight: blue;
-$gray: gray;
+$blueDark: #113a51;
+$blueLight: #477f9f;
+$gray: #333333;
 $grayDark: gray;
 $white: white;
+
+
+//FONTS
+$moskThin:  "Mosk Thin 100";
 
 //Inline ul,li
 .inline-list {
@@ -23,7 +36,6 @@ $white: white;
 .title {
     padding-bottom: 5px;
     border-bottom: 2px solid $blueDark;
-
 }
 
 //Menu
@@ -36,6 +48,9 @@ $white: white;
         justify-content: space-between;
         background-color: $blueDark;
         color: $white;
+        font-family: $moskThin;
+        font-size: 15px;
+        
         ul {
             li { 
                 padding-left: 15px;
@@ -57,12 +72,28 @@ $white: white;
         background-color: $white;
         display: flex;
         justify-content: space-between;
+        color: $gray;
+        font-family: $moskThin;
+        font-size: 20px;
+        height: 70px;
+
+        .menu-logo {
+
+            padding: 10px;
+            img {
+                height: 100%;
+            }
+        }
         ul {
+            display: flex;
+            height: 100%;
             li { 
+                height: 100%;
                 padding-left: 20px;
                 padding-right: 20px;
                 padding-top: 10px;
                 padding-bottom: 10px;
+                line-height: 50px;
 
                 &.active {
                     border-bottom: 2px solid $blueDark;
