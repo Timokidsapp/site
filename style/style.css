@@ -16,7 +16,7 @@ a {
   color: black; }
 
 .content-medium {
-  max-width: 1200px;
+  max-width: 1190px;
   margin: auto; }
 
 .section-title {
@@ -57,44 +57,54 @@ a {
   width: 100%; }
   #menu #menu-top {
     display: flex;
-    justify-content: space-between;
     background-color: #113a51;
     color: white;
     font-family: "Mosk Thin 100";
     font-size: 15px; }
-    #menu #menu-top ul li {
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-top: 10px;
-      padding-bottom: 10px; }
-      #menu #menu-top ul li.active {
-        color: #477f9f; }
-      #menu #menu-top ul li.blueBack {
-        background-color: #477f9f; }
+    #menu #menu-top #menu-top-content {
+      justify-content: space-between;
+      display: flex;
+      width: 100%; }
+      #menu #menu-top #menu-top-content ul li {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px; }
+        #menu #menu-top #menu-top-content ul li.active {
+          color: #477f9f; }
+        #menu #menu-top #menu-top-content ul li.blueBack {
+          background-color: #477f9f; }
   #menu #menu-timo {
     background-color: white;
     display: flex;
-    justify-content: space-between;
     color: #333333;
     font-family: "Mosk Thin 100";
     font-size: 20px;
-    height: 70px; }
-    #menu #menu-timo .menu-logo {
-      padding: 10px; }
-      #menu #menu-timo .menu-logo img {
-        height: 100%; }
-    #menu #menu-timo ul {
+    height: 70px;
+    -webkit-box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.24); }
+    #menu #menu-timo #menu-timo-content {
       display: flex;
+      justify-content: space-between;
+      width: 100%;
       height: 100%; }
-      #menu #menu-timo ul li {
-        height: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        line-height: 50px; }
-        #menu #menu-timo ul li.active {
-          border-bottom: 2px solid #113a51; }
+      #menu #menu-timo #menu-timo-content .menu-logo {
+        padding: 10px; }
+        #menu #menu-timo #menu-timo-content .menu-logo img {
+          height: 100%; }
+      #menu #menu-timo #menu-timo-content ul {
+        display: flex;
+        height: 100%; }
+        #menu #menu-timo #menu-timo-content ul li {
+          height: 100%;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          line-height: 50px; }
+          #menu #menu-timo #menu-timo-content ul li.active {
+            border-bottom: 2px solid #113a51; }
 
 #footer {
   padding-top: 20px;
