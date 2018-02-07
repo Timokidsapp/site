@@ -3,14 +3,6 @@
 @import url(../assets/fonts/stylesheet.css);
 
 
-//GLOBALS
-
-div, ul, li, img {
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-}
-
 //COLORS
 $blueDark: #113a51;
 $blueLight: #477f9f;
@@ -21,6 +13,57 @@ $white: white;
 
 //FONTS
 $moskThin:  "Mosk Thin 100";
+$moskMedium: 'Mosk Medium 500';
+
+
+//GLOBALS
+body {
+    position: relative;
+}
+div, ul, li, img {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-medium {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 20px;
+    font-family: $moskMedium;
+    font-size: 25px;
+    color: gray;
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0; bottom: -7px;
+        height: 3px;
+        background-color: $blueLight;
+        width: 200px;
+        transition: width .25s;
+      }
+}
+
+.button {
+    display: inline-block;
+    background-color: $blueDark;
+    color: $white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
 
 //Inline ul,li
 .inline-list {
@@ -105,11 +148,7 @@ $moskThin:  "Mosk Thin 100";
 
 
 
-//HOME-PRODUCTS
-#home-our-products {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 
 //FOOTER
@@ -131,6 +170,73 @@ $moskThin:  "Mosk Thin 100";
         padding: 0px;
         li {
             list-style: none;
+        }
+    }
+}
+
+
+
+
+// HOME VIDEO
+
+#home-video {
+    display: flex;
+    flex-direction: column;
+    #home-video-top {
+        display: flex;
+        font-family: $moskThin;
+        font-size: 40px;
+        color: $gray;
+        .item {
+            width: 50%;
+        }
+    }
+
+    #home-video-complement {
+        font-family: $moskThin;
+        text-align: center;
+    }
+}
+
+
+//HOME-PRODUCTS
+#home-our-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .content {
+        display: flex;
+        .h-products {
+            text-align: center;
+            width: 25%;
+            padding-left: 20px;
+            padding-right: 20px;
+            img {
+                width: 100%;
+            }
+            .button {
+
+            }
+        }
+    }
+}
+
+#home-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .content {
+        display: flex;
+        .h-numbers {
+            width: 25%;
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            img {
+                width: 100%;
+            }
         }
     }
 }

@@ -1,5 +1,8 @@
 @import url(../node_modules/normalize.css/normalize.css);
 @import url(../assets/fonts/stylesheet.css);
+body {
+  position: relative; }
+
 div, ul, li, img {
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -7,6 +10,37 @@ div, ul, li, img {
   /* Firefox, other Gecko */
   box-sizing: border-box;
   /* Opera/IE 8+ */ }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.content-medium {
+  max-width: 1200px;
+  margin: auto; }
+
+.section-title {
+  position: relative;
+  margin-bottom: 20px;
+  font-family: "Mosk Medium 500";
+  font-size: 25px;
+  color: gray; }
+  .section-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    height: 3px;
+    background-color: #477f9f;
+    width: 200px;
+    transition: width .25s; }
+
+.button {
+  display: inline-block;
+  background-color: #113a51;
+  color: white;
+  padding: 5px;
+  border-radius: 5px; }
 
 .inline-list {
   padding: 0px;
@@ -62,10 +96,6 @@ div, ul, li, img {
         #menu #menu-timo ul li.active {
           border-bottom: 2px solid #113a51; }
 
-#home-our-products {
-  display: flex;
-  justify-content: space-around; }
-
 #footer {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -82,5 +112,47 @@ div, ul, li, img {
     padding: 0px; }
     #footer ul li {
       list-style: none; }
+
+#home-video {
+  display: flex;
+  flex-direction: column; }
+  #home-video #home-video-top {
+    display: flex;
+    font-family: "Mosk Thin 100";
+    font-size: 40px;
+    color: #333333; }
+    #home-video #home-video-top .item {
+      width: 50%; }
+  #home-video #home-video-complement {
+    font-family: "Mosk Thin 100";
+    text-align: center; }
+
+#home-our-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  #home-our-products .content {
+    display: flex; }
+    #home-our-products .content .h-products {
+      text-align: center;
+      width: 25%;
+      padding-left: 20px;
+      padding-right: 20px; }
+      #home-our-products .content .h-products img {
+        width: 100%; }
+
+#home-numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  #home-numbers .content {
+    display: flex; }
+    #home-numbers .content .h-numbers {
+      width: 25%;
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px; }
+      #home-numbers .content .h-numbers img {
+        width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
