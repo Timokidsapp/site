@@ -52,7 +52,7 @@ body {
 }
 
 
-div, ul, li, img, a, button {
+div, ul, li, img, a, button, input, textarea {
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
@@ -127,6 +127,7 @@ ul {
 
 .page-section {
     margin-top: 120px;
+    
 }
 
 // 
@@ -1359,4 +1360,100 @@ ul {
         }
     }
 
+}
+
+
+
+
+// CONTACT
+
+#contact {
+    margin-top: 150px;
+    .content {
+        display: flex;
+
+        .left, .right {
+            width: 50%;
+        }
+
+        .left {
+            font-family: $moskThin;
+            font-size: 2em;
+        }
+
+        .right {
+            text-align: center;
+            background-color: $blue2;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+            input, textarea {
+                width: 100%;
+                margin-top: 20px;
+                font-size: 1.2em;
+                font-family: $moskMedium;
+                border: 0px;
+                background: $grayLight;
+                border-radius: 10px;
+                color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+
+                ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                    color:rgba(255,255,255,1);
+                    opacity: 1; /* Firefox */
+                }
+                
+                :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                    color:rgba(255,255,255,1)
+                }
+                
+                ::-ms-input-placeholder { /* Microsoft Edge */
+                    color:rgba(255,255,255,1)
+                }
+            }
+            
+            input {
+                height: 40px;
+            }
+
+            textarea {
+                height: 150px;
+            }
+
+            a {
+                display: inline-block;
+                margin: 0px auto;
+                margin-top: 20px;
+                font-size: 1.4em;
+                padding-left: 20px;
+                padding-right: 20px;
+
+            }
+        }
+
+
+        @include respond-to($tablet-portrait) {
+            
+            flex-wrap: wrap;
+
+            .right, .left {
+                width: 100%;
+            }
+
+            .left {
+                font-size: 1.7em;
+            }
+
+            .right {
+                margin-top: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+                
+
+        }
+
+    }
 }
