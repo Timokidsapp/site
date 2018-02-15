@@ -332,3 +332,7 @@ en:
 # CONTACT
   contact_title: "Contact"
   contact_desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+  contact_name: "Name"
+  contact_email: "E-mail"
+  contact_message: "Message"
+  contact_send: "Send"

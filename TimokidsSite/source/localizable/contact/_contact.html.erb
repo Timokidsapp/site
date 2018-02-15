@@ -5,11 +5,11 @@
             <%= t(:contact_desc) %>
         </div>
         <div class="right">
-        <input type="text" name="name" placeholder="Name">
-        <input type="text" name="email" placeholder="E-mail">
+        <input type="text" name="name" placeholder="<%= t(:contact_name) %>">
+        <input type="text" name="email" placeholder="<%= t(:contact_email) %>">
     
-        <textarea name="msg" placeholder="Mansagem"></textarea>
-        <a href="" class="button" >Send</a>
+        <textarea name="msg" placeholder="<%= t(:contact_message) %>"></textarea>
+        <a href="" class="button" ><%= t(:contact_send) %></a>
         </div>
     </div>
 </section>
