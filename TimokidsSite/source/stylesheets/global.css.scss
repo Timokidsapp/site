@@ -36,6 +36,7 @@ $tablet-portrait: '(max-width: 767px)';
 $large-desktop: '(min-width: 1200px)';
 $content-query: '(max-width: 1200px)';
 $max-responsive: '(max-width: 960px)';
+$min-responsive: '(min-width: 960px)';
 
 
 @mixin respond-to($media) {
@@ -49,6 +50,7 @@ body {
     color: $gray;
     position: relative;
     font-family: $moskMedium;
+    min-height: 100vh;
 }
 
 
@@ -126,7 +128,10 @@ ul {
 }
 
 .page-section {
-    margin-top: 120px;
+    padding-top: 150px;
+    @include respond-to($min-responsive) {
+        padding-bottom: 250px;    
+    }
     
 }
 
@@ -178,6 +183,12 @@ ul {
 // FOOTER 
 
 #footer {
+    @include respond-to($min-responsive) {
+        position: absolute;
+        bottom: 0px;
+    }
+    
+    width: 100%;
     margin-top: 90px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -459,7 +470,7 @@ ul {
 
 // HOME VIDEO
 #home-video {
-    margin-top: 150px;
+    
     display: flex;
     flex-direction: column;
     #home-video-top {
@@ -845,7 +856,7 @@ ul {
 // ABOUT
 
 #what-we-do {
-    margin-top: 150px;
+    
     
     .desc {
         padding-left: 40px;
@@ -1015,7 +1026,7 @@ ul {
 // SCHOOL
 
 #school {
-    margin-top: 150px;
+    
     .title {
         font-size: $titleSize;
         margin-bottom: 30px;
@@ -1155,7 +1166,7 @@ ul {
 // SOCIAL
 
 #social-start {
-    margin-top: 150px;
+    
     font-size: 1.2em;
     color: $blueDark;
     .title {
@@ -1268,7 +1279,7 @@ ul {
 
 // GAMES
 #games-intro {
-    margin-top: 150px;
+    
     font-size: 1.2em;
     .title {
         font-size: $titleSize;
@@ -1368,7 +1379,7 @@ ul {
 // CONTACT
 
 #contact {
-    margin-top: 150px;
+    
     .content {
         display: flex;
 
