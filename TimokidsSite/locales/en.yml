@@ -336,3 +336,24 @@ en:
   contact_email: "E-mail"
   contact_message: "Message"
   contact_send: "Send"
+
+# TEAM
+
+  team_title: "Our team"
+  team_persons:
+    - name: "teste"
+      office: "CEO"
+      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+      img: "products/logo_TKAPp.png"
+    - name: "teste"
+      office: "CEO"
+      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+      img: "products/logo_TKAPp.png"
+    - name: "teste"
+      office: "CEO"
+      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+      img: "products/logo_TKAPp.png"
+    - name: "teste"
+      office: "CEO"
+      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+      img: "products/logo_TKAPp.png"

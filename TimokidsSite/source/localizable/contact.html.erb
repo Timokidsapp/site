@@ -7,3 +7,22 @@ title: Contact
     <%= partial "contact/contact" %>
 </div>
 <%= partial "footer" %>
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+    $(".menu-left").click(function() {
+          $(this).toggleClass( "is-active" );
+          $(".menu-sections").toggleClass( "active" );
+      });
+  
+      $(".menu-right").click(function() {
+          $("#menu-top").toggleClass( "active" );
+          $(this).toggleClass( "is-active" );
+    });
+});
+</script>

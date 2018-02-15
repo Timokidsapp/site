@@ -130,7 +130,7 @@ ul {
 .page-section {
     padding-top: 150px;
     @include respond-to($min-responsive) {
-        padding-bottom: 250px;    
+        padding-bottom: 266px;    
     }
     
 }
@@ -1466,5 +1466,41 @@ ul {
 
         }
 
+    }
+}
+
+#team {
+    background-color: $blue2;
+}
+#team-start {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    color: white;
+    .content-team {
+        display: flex;
+
+        .h-blog {
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            img {
+                display: inline-block;
+                width: 100%;
+                max-width: 200px;
+            }
+
+            .title {
+                margin-top: 10px;
+                font-family: $moskSemiBold;
+                font-size: $itemTitleSize;
+            }
+            .office {
+                margin-bottom: 10px;
+            }
+            
+        }
     }
 }

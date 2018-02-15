@@ -1,0 +1,14 @@
+<section id="team-start" class="content-medium"> 
+    <div class="section-title white"><%= t(:team_title) %></div>
+    <div class="content-team owl-carousel light">
+
+        <% t(:team_persons).each do |item| %>
+            <div class="h-blog item">
+                <%= image_tag item[:img] %>
+                <div class="title"><%= item[:name] %></div>
+                <div class="office"><%= item[:office] %></div>
+                <div><%= item[:desc] %> </div>
+            </div>
+        <% end %>
+    </div>
+</section>
