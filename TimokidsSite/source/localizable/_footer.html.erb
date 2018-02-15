@@ -1,0 +1,36 @@
+<section id="footer">
+    <div class="content-medium">
+        <div class="grid">
+            <div class="item">
+                <p class="footer-title">About us</p>
+                <ul>
+                    <li><%= link_to t(:about_menu), '/about.html' %></li>
+                    <li><%= link_to t(:our_team), '/about.html' %></li>
+                    <li><%= link_to t(:blog), '/about.html' %></li>
+                </ul>
+            </div>
+            <div class="item">
+                <p class="footer-title">Products</p>
+                <ul>
+                    <li><%=t(:timo_app) %></li>
+                    <li><%= link_to t(:timo_school), '/school.html' %></li>
+                    <li><%= link_to t(:timo_social), '/social.html' %></li>
+                    <li><%= link_to t(:timo_games), '/games.html' %></li>
+                </ul>
+            </div>
+            <div class="item">
+                <p class="footer-title">Communication</p>
+            <ul>
+                <li><%=t(:contact) %></li>
+            </ul>
+            </div>
+            <div class="item">
+                <ul class="inline-list">
+                <li class="footer-social"><a href="<%= t(:fb_link)%>" target="_blank"><%= image_tag 'rodape_Face.png' %></a></li>
+                <li class="footer-social"><a href="<%= t(:insta_link)%>" target="_blank"><%= image_tag 'rodape_Insta.png' %></a></li>
+                <li class="footer-social"><a href="<%= t(:twitter_link)%>" target="_blank"><%= image_tag 'rodape_Twitter.png' %></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

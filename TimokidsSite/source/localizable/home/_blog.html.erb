@@ -1,0 +1,14 @@
+<section id="home-blog" class="content-medium"> 
+    <div class="section-title"><%= t(:blog_home_title) %></div>
+    <div class="content-blog owl-carousel">
+
+        <% t(:blog_posts).each do |item| %>
+            <div class="h-blog item">
+                <%= image_tag item[:img] %>
+                <div class="title"><%= item[:title] %></div>
+                <div><%= item[:desc] %> </div>
+                <a href="<%= item[:link] %>" target="_blank" class="button"><%= item[:button] %></a>
+            </div>
+        <% end %>
+    </div>
+</section>

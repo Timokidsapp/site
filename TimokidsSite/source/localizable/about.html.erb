@@ -1,0 +1,35 @@
+---
+title: SOBRE NÓS
+---
+
+
+<%= stylesheet_link_tag 'global' %>
+
+<%= partial "menu" %>
+<div id="about-content" class="page-section">
+<%= partial "about/whatwedo" %>
+<%= partial "about/approach" %>
+<%= partial "about/objectives" %>
+<%= partial "about/objc" %>
+<%= partial "about/vision" %>
+</div>
+<%= partial "footer" %>
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+    $(".menu-left").click(function() {
+          $(this).toggleClass( "is-active" );
+          $(".menu-sections").toggleClass( "active" );
+      });
+  
+      $(".menu-right").click(function() {
+          $("#menu-top").toggleClass( "active" );
+          $(this).toggleClass( "is-active" );
+    });
+});
+</script>

@@ -1,0 +1,11 @@
+<section id="school" class="content-medium">
+    <div class="title"><%= t(:school_title) %></div>
+    <div class="desc"><%= t(:school_desc) %></div>
+    <div class="content">
+        <div class="items">
+            <% t(:school_items).each do |item| %>
+                <div class="item"><div><%= item %></div></div>
+            <% end %>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,15 @@
+<section id="games-all" class="content-medium"> 
+    <div class="section-title"><%= t(:games_all_title) %></div>
+    <div class="content-games owl-carousel">
+        <% t(:games_all).each do |item| %>
+            <div class="item">
+            <%= image_tag item[:img] %>
+                <a href="">
+                    
+                    <div class="title"><%= item[:title] %></div>
+                    <div><%= item[:desc] %></div>
+                </a>
+            </div>
+        <% end %>
+    </div>
+</section>

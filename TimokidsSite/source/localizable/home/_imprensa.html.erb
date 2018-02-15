@@ -1,0 +1,22 @@
+<section id="home-imp" class="content-medium"> 
+    <div class="section-title"><%= t(:imp_home_title) %></div>
+    <div class="content-imp owl-carousel">
+        <% t(:imp_items).each do |item| %>
+            <div class="h-imp item">
+                <div class="content">
+                    <%= image_tag item[:img] %>
+                    <div class="info">
+                        <div>
+                            <%= item[:title] %>
+                        </div>
+                        <div>
+                            <%= item[:desc] %>
+                        </div>
+                        
+                    </div>
+                    <a href="<%= item[:link] %>" target="_blank" class="button"><%= item[:button] %></a>
+                </div>
+            </div>
+        <% end %>
+    </div>
+</section>

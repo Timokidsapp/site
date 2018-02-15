@@ -1,0 +1,15 @@
+<section id="home-depo" class="content-medium"> 
+    <div class="section-title"><%= t(:depoiments_home_title) %></div>
+    <div class="content-depo owl-carousel">
+        <% t(:depoiments_items).each do |item| %>
+            <div class="h-depo item">
+                <div class="content">
+                    <%= image_tag item[:img] %>
+                    <div class="title"><%= item[:name] %></div>
+                    <div class="work"><%= item[:work] %></div>
+                    <div><%= item[:depoiment] %></div>
+                </div>
+            </div>
+        <% end %>
+    </div>
+</section>
