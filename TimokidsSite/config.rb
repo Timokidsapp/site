@@ -42,7 +42,31 @@ activate :i18n
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# langs.each do |item|
+def self.transform_keys_to_symbols(value)
+  if value.kind_of?(::Hash)
+    hash = value.inject({}){|memo,(k,v)| memo[k.to_sym] = transform_keys_to_symbols(v); memo}
+    return hash
+  elsif value.kind_of?(::Array)
+    return value.map { |a| transform_keys_to_symbols(a) }
+  end
+  
+  return value
+  
+end
+
+Dir.glob('locales/*').each do |file|
+  
+  localeID = file.split('.')[0].split('/')[1].to_sym
+  yaml = transform_keys_to_symbols(YAML.load_file(file))[localeID]
+
+  yaml[:campanhas].each do |item|
+    puts "*"*100
+    puts item["campanha1_title"]
+    proxy "#{localeID == :en ? '' :'/'+localeID.to_s}/campanhas/#{item[:campanha1_title]}.html", "/campaings/template.html", :locals => { :item => item }, locale: localeID, :ignore => true
+  end
+end
+
+# r().each do |item|
 #     proxy "/campanhas/#{item[:campanha1_title]}.html", "/about/template.html", :locals => { :item => item }
 # end
 
@@ -52,3 +76,4 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
 end
+

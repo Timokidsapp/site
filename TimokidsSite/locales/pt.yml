@@ -67,7 +67,7 @@ pt:
       title: "Goodbye Aedes"
       desc: "2,500 books were distributed with the story, Prevention is the best Medicine, to the children of the NGO Casa do Zezinho."
       button: "Know more"
-    - img: "home/campaings/campanha_aracoiaba copiar.png"
+    - img: "home/campaings/campanha_aracoiaba.png"
       title: "Araçoiaba da Serra"
       desc: "Project Citizenship, with the City of Araçoiaba da Serra, delivered more than two thousand books to children from the entire town and was attended by Mayor Mara Melo.  The same story is also available for free digitally to anyone who owns the Timokids application on a smartphone or tablet."
       button: "Know more"
@@ -327,6 +327,250 @@ pt:
       title: "Tangram"
       desc: "Chinse jigsaw puzzle, set up the picture in whatever way seems best to you"
       link: ""
+    
 
+# CONTACT
+  contact_title: "Contact"
+  contact_desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+  contact_name: "Name"
+  contact_email: "E-mail"
+  contact_message: "Message"
+  contact_send: "Send"
+
+# TEAM
+
+  team_title: "Our team"
+  team_persons:
+    - name: "teste"
+      office: "CEO"
+      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+      img: "products/logo_TKAPp.png"
+    - name: "teste"
+      office: "CEO"
+      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+      img: "products/logo_TKAPp.png"
+    - name: "teste"
+      office: "CEO"
+      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+      img: "products/logo_TKAPp.png"
+    - name: "teste"
+      office: "CEO"
+      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+      img: "products/logo_TKAPp.png"
+
+
+  # APP
+  app_title: "TIMOKIDS APP"
+  app_desc: "Timokids is an application for Smartphones and Tablets that brings children and families stories and socio-educational games, illustrated in 3D, narrated and subtitled in several languages."
+  app_paragraphs: 
+    - "+ DE 50 Stories help parents talk to their children about issues that are essential to their growth, such as bullying, socializing, prejudice, health, and many others."
+    - "Timokids is an app for children that uses technology in a positive and healthy way in families."
+    - "Our vertical development themes are:"
+
+
+  theme_1: &theme_1
+    color: "#000000"
+    name: "Social Behavior"
+  theme_2: &theme_2
+    color: "#0000FF"
+    name: "Education and Sports"
+  theme_3: &theme_3
+    color: "#00FF00"
+    name: "Citizenship and Sustainability"
+  theme_4: &theme_4
+    color: "#FF0000"
+    name: "Health and safety"
+  theme_5: &theme_5
+    color: "#7FFFD4"
+    name: "Childhood day-to-day"
+  
 
     
+  app_themes:
+    - <<: *theme_1
+    - <<: *theme_2
+    - <<: *theme_3
+    - <<: *theme_4
+    - <<: *theme_5
+
+  timolico_title: "Turma do Timolico"
+
+  timolico_tab_1: "Hitories"
+  timolico_tab_2: "Persons"
+
+  timolico_hitories: 
+    - <<: *theme_1
+      desc: ""
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: ""
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: ""
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: ""
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: ""
+      img: "products/logo_TKAPp.png"
+
+  
+  timolico_persons:
+    - img: "products/logo_TKAPp.png"
+      name: "Enzo"
+      desc: "Enzo the ferret is very smart and playful. He is very funny and always has a joke ready for any situation."
+    - img: "products/logo_TKAPp.png"
+      name: "Timolico"
+      desc: "A very kind and optimistic chinchilla who always tries to see the best in people.  He is always willing to help his friends."
+    - img: "products/logo_TKAPp.png"
+      name: "Kyra"
+      desc: "A very beautiful but vain cockatiel. She is always worried about her appearance and carries her make-up and mirror with her wherever she goes."
+    - img: "products/logo_TKAPp.png"
+      name: "Artur"
+      desc: "Despite being the youngest of the group, Artur the snail is very mature and is the best student of them all."
+    - img: "products/logo_TKAPp.png"
+      name: "Marta"
+      desc: "Quieter and less playful than the others, Marta the iguana is ready to give advice to her friends when they need it and is the most caring of the group."
+    - img: "products/logo_TKAPp.png"
+      name: "Dona Telma"
+      desc: "Mãe e protetora de seus filhos Timolico e Ivo, ela é famosa por ser uma ótima cozinheira e sempreconvida a turma para provar seus doces e guloseimas. Sempre aconselha e ajuda seus filhos, masquando aprontam, não hesita em dar um puxão de orelha."
+    - img: "products/logo_TKAPp.png"
+      name: "Ivo"
+      desc: "Irmãozinho mais novo de Timolico, adora brincar com seu irmão e tenta se enturmar entre os maisvelhos. Ele ama o colo de sua mãe e vai correndo para ela quando as coisas dão errado."
+    - img: "products/logo_TKAPp.png"
+      name: "Professora Inês"
+      desc: "Inês é uma coruja muito esperta e sensate. Sempre de olho em seus alunos, está mais do que preparadapara ensinar e ajudar uma sala cheia de alunos divertidos e brincalhões"
+
+
+
+
+  travelers_title: "Travelers"
+
+  travelers_tab_1: "Hitories"
+  travelers_tab_2: "Persons"
+
+  travelers_hitories: 
+    - <<: *theme_1
+      desc: ""
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: ""
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: ""
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: ""
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: ""
+      img: "products/logo_TKAPp.png"
+
+  
+  travelers_persons:
+    - img: "products/logo_TKAPp.png"
+      name: "Lucas"
+      desc: "Um garoto curioso, que não larga o seu skate, e adora viver grandes aventuras ao lado de seus amigos. Ama viajar econhecer novas culturas, histórias e hábitos. Tem uma atitude sempre otimista, e quase nada deixa ele de mau humor."
+    - img: "products/logo_TKAPp.png"
+      name: "Igor"
+      desc: "Um menino amável, esperto, forte, ruivo e vive comendo qualquer coisa. O pai do Igor é padeiro e Igor aprendeu acozinhar com sua mãe que adora assistir programas de culinária."
+    - img: "products/logo_TKAPp.png"
+      name: "Julia"
+      desc: "A mais nova, timida e muito inteligente. Ela adora a natureza e tem uma conexão especial com bichinhos."
+    - img: "products/logo_TKAPp.png"
+      name: "Léo"
+      desc: "Irmão gêmeo de Lia. Garoto muito esperto e que gosta de música. Vive grudado nos seus fones de ouvido."
+    - img: "products/logo_TKAPp.png"
+      name: "Lia"
+      desc: "Irmã gêmea de Léo, protetora, ela vive dançando e sonha em ser bailarina um dia. Léo e Lia são órfãos, e foram criadospela avó, com quem vivem."
+
+  kidsafe_title: "KidSafe"
+  kidsafe_desc: "Timokids received an international seal of approval from the KidSAFE program, which is a certification service that approves projects exclusively designed for children."
+  kidsafe_more_info: "Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+
+
+  #CAMPANHA 1
+  
+  campanhas:
+    - campanha1_title: "CAMPANHA 1"
+      campanha1_notice:
+        - template: "right"
+          img: "products/logo_TKAPp.png"
+          paragraphs: 
+            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+        - template: "left"
+          img: "products/logo_TKAPp.png"
+          paragraphs: 
+            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+        - template: "content"
+          img: "products/logo_TKAPp.png"
+          paragraphs: 
+            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+        - template: "images"
+          imgs: 
+            - "products/logo_TKAPp.png"
+            - "products/logo_TKAPp.png"
+            - "products/logo_TKAPp.png"
+            - "products/logo_TKAPp.png"
+            - "products/logo_TKAPp.png"
+            - "products/logo_TKAPp.png"
+            - "products/logo_TKAPp.png"
+            - "products/logo_TKAPp.png"
+      campanha1_thanks_names:
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+        - "maria" 
+      campanha1_thanks_imgs: 
+        - "products/logo_TKAPp.png"
+        - "products/logo_TKAPp.png"
+        - "products/logo_TKAPp.png"
+        - "products/logo_TKAPp.png"
+        - "products/logo_TKAPp.png"
+        - "products/logo_TKAPp.png"
+        - "products/logo_TKAPp.png"
+        - "products/logo_TKAPp.png"
+      
+            

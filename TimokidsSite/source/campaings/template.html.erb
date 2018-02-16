@@ -5,45 +5,45 @@ title: teste
 <%= partial "menu" %>
 <div id="campaign" class="page-section">
     <section id="campaign-notice" class="content-medium">
-        <div class="section-title"><%= t(:campanha1_title) %></div>
-        <% t(:campanha1_notice).each do |item| %>
-            <% if item[:template] == 'right' %>
+        <div class="section-title"><%= item[:campanha1_title] %></div>
+        <% item[:campanha1_notice].each do |notice| %>
+            <% if notice[:template] == 'right' %>
                 <div class="content-image-right">  
                     <div class="text">
-                        <% item[:paragraphs].each do |p| %>
+                        <% notice[:paragraphs].each do |p| %>
                             <p><%= p %></p>
                         <% end %>
                     </div>
                     <div class="images">
-                        <%= image_tag item[:img] %>
+                        <%= image_tag notice[:img] %>
                     </div>
                 </div>
             <% end %>
 
-            <% if item[:template] == 'left' %>
+            <% if notice[:template] == 'left' %>
                 <div class="content-image-left">  
                     <div class="images">
-                        <%= image_tag item[:img] %>
+                        <%= image_tag notice[:img] %>
                     </div>
                     <div class="text">
-                        <% item[:paragraphs].each do |p| %>
+                        <% notice[:paragraphs].each do |p| %>
                             <p><%= p %></p>
                         <% end %>
                     </div>
                 </div>
             <% end %>
 
-            <% if item[:template] == 'content' %>
+            <% if notice[:template] == 'content' %>
                 <div class="content">
-                    <% item[:paragraphs].each do |p| %>
+                    <% notice[:paragraphs].each do |p| %>
                         <p><%= p %></p>
                     <% end %>
                 </div>
             <% end %>
 
-            <% if item[:template] == 'images' %>
+            <% if notice[:template] == 'images' %>
                 <div class="images">
-                    <% item[:imgs].each do |img| %>
+                    <% notice[:imgs].each do |img| %>
                         <div><%= image_tag img %></div>
                     <% end %>
                 </div>
@@ -55,14 +55,14 @@ title: teste
         
     </section>
     <section id="campaign-thanks" class="content-medium">
-        <div class="section-title"><%= t(:campanha1_title) %></div>
+        <div class="section-title"><%= item[:campanha1_title] %></div>
         <div class="names">
-            <% t(:campanha1_thanks_names).each do |img| %>
+            <% item[:campanha1_thanks_names].each do |img| %>
                 <div><%= img %></div>
             <% end %>
         </div>
         <div class="logos">
-            <% t(:campanha1_thanks_imgs).each do |img| %>
+            <% item[:campanha1_thanks_imgs].each do |img| %>
                 <div><%= image_tag img %></div>
             <% end %>
         </div>
