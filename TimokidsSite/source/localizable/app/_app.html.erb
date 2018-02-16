@@ -1,0 +1,20 @@
+<section id="app" class="content-medium">
+    <div class="title"><%= t(:app_title) %></div>
+    <div class="desc"><%= t(:app_desc) %></div>
+    
+    <div class="desc-1">
+        <% t(:app_paragraphs).each do |item| %>
+            <p><%= item %></p>
+        <% end %>
+    <div>
+    
+    <div class="app-theme owl-carousel">
+        <% t(:app_themes).each do |item| %>
+            <div class="item">
+                <div class="ball-theme" style="background-color: <%= item[:color]%>;"></div>
+                <p><%= item[:desc] %></p>
+            </div>
+
+        <% end %>
+    </div>
+</section>

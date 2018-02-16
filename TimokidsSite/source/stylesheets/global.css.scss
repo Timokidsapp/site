@@ -1504,3 +1504,47 @@ ul {
         }
     }
 }
+
+
+
+.ball-theme {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#app {
+    font-size: 1.2em;
+    
+    .title {
+        font-size: $titleSize;
+        margin-bottom: 40px;
+    }
+
+    .desc {
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: $moskThin;
+        margin-bottom: 40px;
+    }
+    .desc-1  {
+        p {
+            color: $blueDark;
+        }
+    }
+    
+    .app-theme {
+        .item {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .ball-theme {
+                margin: 0px auto;
+            }
+            text-align: center;  
+        }
+         
+    }
+    
+}

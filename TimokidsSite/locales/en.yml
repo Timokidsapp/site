@@ -357,3 +357,38 @@ en:
       office: "CEO"
       desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
       img: "products/logo_TKAPp.png"
+
+
+  # APP
+  app_title: "TIMOKIDS APP"
+  app_desc: "Timokids is an application for Smartphones and Tablets that brings children and families stories and socio-educational games, illustrated in 3D, narrated and subtitled in several languages."
+  app_paragraphs: 
+    - "+ DE 50 Stories help parents talk to their children about issues that are essential to their growth, such as bullying, socializing, prejudice, health, and many others."
+    - "Timokids is an app for children that uses technology in a positive and healthy way in families."
+    - "Our vertical development themes are:"
+
+
+  theme_1: &theme_1
+    color: "#000000"
+    desc: "Social Behavior"
+  theme_2: &theme_2
+    color: "#0000FF"
+    desc: "Education and Sports"
+  theme_3: &theme_3
+    color: "#00FF00"
+    desc: "Citizenship and Sustainability"
+  theme_4: &theme_4
+    color: "#FF0000"
+    desc: "Health and safety"
+  theme_5: &theme_5
+    color: "#7FFFD4"
+    desc: "Childhood day-to-day"
+  
+
+    
+  app_themes:
+    - <<: *theme_1
+    - <<: *theme_2
+    - <<: *theme_3
+    - <<: *theme_4
+    - <<: *theme_5
