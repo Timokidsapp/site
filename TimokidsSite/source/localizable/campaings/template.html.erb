@@ -1,0 +1,90 @@
+---
+title: teste
+---
+<%= stylesheet_link_tag 'global' %>
+<%= partial "menu" %>
+<div id="campaign" class="page-section">
+    <section id="campaign-notice" class="content-medium">
+        <div class="section-title"><%= t(:campanha1_title) %></div>
+        <% t(:campanha1_notice).each do |item| %>
+            <% if item[:template] == 'right' %>
+                <div class="content-image-right">  
+                    <div class="text">
+                        <% item[:paragraphs].each do |p| %>
+                            <p><%= p %></p>
+                        <% end %>
+                    </div>
+                    <div class="images">
+                        <%= image_tag item[:img] %>
+                    </div>
+                </div>
+            <% end %>
+
+            <% if item[:template] == 'left' %>
+                <div class="content-image-left">  
+                    <div class="images">
+                        <%= image_tag item[:img] %>
+                    </div>
+                    <div class="text">
+                        <% item[:paragraphs].each do |p| %>
+                            <p><%= p %></p>
+                        <% end %>
+                    </div>
+                </div>
+            <% end %>
+
+            <% if item[:template] == 'content' %>
+                <div class="content">
+                    <% item[:paragraphs].each do |p| %>
+                        <p><%= p %></p>
+                    <% end %>
+                </div>
+            <% end %>
+
+            <% if item[:template] == 'images' %>
+                <div class="images">
+                    <% item[:imgs].each do |img| %>
+                        <div><%= image_tag img %></div>
+                    <% end %>
+                </div>
+            <% end %>
+        <% end %>
+        
+        
+        
+        
+    </section>
+    <section id="campaign-thanks" class="content-medium">
+        <div class="section-title"><%= t(:campanha1_title) %></div>
+        <div class="names">
+            <% t(:campanha1_thanks_names).each do |img| %>
+                <div><%= img %></div>
+            <% end %>
+        </div>
+        <div class="logos">
+            <% t(:campanha1_thanks_imgs).each do |img| %>
+                <div><%= image_tag img %></div>
+            <% end %>
+        </div>
+    </section>
+</div>
+<%= partial "footer" %>
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+    $(".menu-left").click(function() {
+          $(this).toggleClass( "is-active" );
+          $(".menu-sections").toggleClass( "active" );
+      });
+  
+      $(".menu-right").click(function() {
+          $("#menu-top").toggleClass( "active" );
+          $(this).toggleClass( "is-active" );
+    });
+});
+</script>

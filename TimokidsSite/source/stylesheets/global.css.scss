@@ -1718,6 +1718,67 @@ ul {
     }
 }
 
+
+#campaign {
+    #campaign-notice {
+        font-size: 1.2em;
+        .content-image-right, .content-image-left {
+            display: flex;
+        }
+        .content-image-right{
+            img {
+                margin-left: 20px;
+            }
+        }
+
+        .content-image-left{
+            img {
+                margin-right: 20px;
+            }
+        }
+
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            div {
+                padding: 10px;
+                width: 200px; 
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #campaign-thanks {
+        .names, .logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .names {
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 1.2em;
+            color: $blueHighilight;
+            div {
+                padding: 10px;
+           }
+        }
+        .logos {
+            div {
+                padding: 10px;
+                height: 200px; 
+                img{
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
 .tab {
     .tablinks {
         background: $blueDark;

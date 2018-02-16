@@ -42,6 +42,10 @@ activate :i18n
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
+# langs.each do |item|
+#     proxy "/campanhas/#{item[:campanha1_title]}.html", "/about/template.html", :locals => { :item => item }
+# end
+
 configure :build do
   set :http_prefix, "/novosite"
   activate :asset_host, :host => 'https://www.timokids.com.br/novosite/'
