@@ -1,19 +1,21 @@
-<section id="home-campanhas">
+<section id="home-campaings">
     <div class="content-medium">
         <div class="section-title  white"><%= t(:campaings_home_title) %></div>
         <div class="campaign-carousel owl-carousel light">
-            <% t(:campaings).each do |item| %>
+            <% t(:campaings).select { |x| x[:show_home] }.each do |item| %>
                 <div class="item">
-                    <%= image_tag item[:img] %>
+                    <%= image_tag item[:home_img] %>
                     <div class="item-desc">
                         <div class="desc-content">
                             <div class="title">
                                 <%= item[:title] %>
                             </div>
                             <div>
-                                <%= item[:desc] %>
+                                <%= item[:home_desc] %>
                             </div>
-                            <a href="" class="button"><%= item[:button] %></a>
+                            <% if item[:has_detail] %>
+                            <%= link_to item[:button], "campaings/" + item[:title] + ".html", :class => 'button' %>
+                            <% end %>
                         </div>
                     </div>
                 </div>

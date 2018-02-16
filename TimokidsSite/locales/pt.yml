@@ -490,11 +490,15 @@ pt:
   kidsafe_more_info: "Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
 
 
-  #CAMPANHA 1
-  
-  campanhas:
-    - campanha1_title: "CAMPANHA 1"
-      campanha1_notice:
+  #CAMPANHA 1    
+  campaings:
+    - title: "Goodbye Aedes"
+      home_img: "home/campaings/fotomini_Aedes1.png"
+      home_desc: "2,500 books were distributed with the story, Prevention is the best Medicine, to the children of the NGO Casa do Zezinho."
+      button: "Know more"
+      show_home: true
+      has_detail: true
+      notice:
         - template: "right"
           img: "products/logo_TKAPp.png"
           paragraphs: 
@@ -523,7 +527,7 @@ pt:
             - "products/logo_TKAPp.png"
             - "products/logo_TKAPp.png"
             - "products/logo_TKAPp.png"
-      campanha1_thanks_names:
+      thanks_names:
         - "maria" 
         - "maria" 
         - "maria" 
@@ -563,7 +567,7 @@ pt:
         - "maria" 
         - "maria" 
         - "maria" 
-      campanha1_thanks_imgs: 
+      thanks_imgs: 
         - "products/logo_TKAPp.png"
         - "products/logo_TKAPp.png"
         - "products/logo_TKAPp.png"
@@ -572,5 +576,17 @@ pt:
         - "products/logo_TKAPp.png"
         - "products/logo_TKAPp.png"
         - "products/logo_TKAPp.png"
+    - home_img: "home/campaings/campanha_aracoiaba.png"
+      title: "Araçoiaba da Serra"
+      home_desc: "Project Citizenship, with the City of Araçoiaba da Serra, delivered more than two thousand books to children from the entire town and was attended by Mayor Mara Melo.  The same story is also available for free digitally to anyone who owns the Timokids application on a smartphone or tablet."
+      button: "Know more"
+      show_home: true
+      has_detail: false
+    - home_img: "home/campaings/campanha_zika.png"
+      title: "Zika Vírus"
+      home_desc: "Timokids, with its goal of driving positive social impact, wants to bring awareness to children and transform them into agents to combat the Aedes Aegypti, teaching them from an early age how to identify the breeding grounds and fight the mosquitos."
+      button: "Know more"
+      show_home: true
+      has_detail: false
       
             

@@ -14,7 +14,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 activate :i18n
-
+activate :directory_indexes
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
@@ -59,15 +59,17 @@ Dir.glob('locales/*').each do |file|
   localeID = file.split('.')[0].split('/')[1].to_sym
   yaml = transform_keys_to_symbols(YAML.load_file(file))[localeID]
 
-  yaml[:campanhas].each do |item|
-    puts "*"*100
-    puts item["campanha1_title"]
-    proxy "#{localeID == :en ? '' :'/'+localeID.to_s}/campanhas/#{item[:campanha1_title]}.html", "/campaings/template.html", :locals => { :item => item }, locale: localeID, :ignore => true
+  yaml[:campaings].each do |item|
+    puts "#"*100
+    puts item[:has_detail]
+    if item[:has_detail]
+      proxy "#{localeID == :en ? '' :'/'+localeID.to_s}/campaings/#{item[:title]}.html", "/campaings/template.html", :locals => { :item => item }, locale: localeID, :ignore => true
+    end
   end
 end
 
 # r().each do |item|
-#     proxy "/campanhas/#{item[:campanha1_title]}.html", "/about/template.html", :locals => { :item => item }
+#     proxy "/campaings/#{item[:title]}.html", "/about/template.html", :locals => { :item => item }
 # end
 
 configure :build do
@@ -76,4 +78,3 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
 end
-
