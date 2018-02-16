@@ -11,8 +11,8 @@
     <div class="app-theme owl-carousel">
         <% t(:app_themes).each do |item| %>
             <div class="item">
-                <div class="ball-theme" style="background-color: <%= item[:color]%>;"></div>
-                <p><%= item[:desc] %></p>
+                <div class="ball-theme center" style="background-color: <%= item[:color]%>;"></div>
+                <p><%= item[:name] %></p>
             </div>
 
         <% end %>

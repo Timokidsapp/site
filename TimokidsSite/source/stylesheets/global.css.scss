@@ -1161,6 +1161,19 @@ ul {
     margin-top: 90px;
     font-size: 1.2em;
     color: $blueDark;
+
+    .stores {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        div {
+            padding: 10px;
+        }
+        img {
+            width: 200px;
+            display: block;
+        }
+    }
 }
 
 // SOCIAL
@@ -1511,6 +1524,10 @@ ul {
     width: 30px;
     height: 30px;
     border-radius: 15px;
+
+    &.center {
+        margin: 0px auto;
+    }
 }
 
 #app {
@@ -1539,12 +1556,191 @@ ul {
         .item {
             padding-top: 20px;
             padding-bottom: 20px;
-            .ball-theme {
-                margin: 0px auto;
-            }
             text-align: center;  
         }
-         
     }
+
+    @include respond-to($max-responsive) {
+        .desc {
+            font-size: 2em;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    @include respond-to($phone) {
+        .desc {
+            font-size: 1.7em;
+        }
+    }
+}
+
+
+#app-timolico {
+    margin-top: 90px;
+    #tab-timolico {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: $blue2;
+        color: white;
+        #timolico-histories {
+            .item {
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                img {
+                    display: inline-block;
+                    width: 100%;
+                    max-width: 200px;
+                }
     
+                .title {
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                    font-family: $moskSemiBold;
+                    font-size: $itemTitleSize;
+                }
+            }
+        }
+
+        #timolico-persons {
+            .item {
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                img {
+                    display: inline-block;
+                    width: 100%;
+                    max-width: 200px;
+                }
+    
+                .title {
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                    font-family: $moskSemiBold;
+                    font-size: $itemTitleSize;
+                }
+            }
+        }
+    }
+}
+
+
+
+#app-travelers {
+    margin-top: 90px;
+    #tab-travelers {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: $blue2;
+        color: white;
+        #travelers-histories {
+            .item {
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                img {
+                    display: inline-block;
+                    width: 100%;
+                    max-width: 200px;
+                }
+    
+                .title {
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                    font-family: $moskSemiBold;
+                    font-size: $itemTitleSize;
+                }
+            }
+        }
+
+        #travelers-persons {
+            .item {
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                img {
+                    display: inline-block;
+                    width: 100%;
+                    max-width: 200px;
+                }
+    
+                .title {
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                    font-family: $moskSemiBold;
+                    font-size: $itemTitleSize;
+                }
+            }
+        }
+    }
+}
+
+#app-kidSafe {
+    margin-top: 90px;
+    font-size: 1.2em;
+
+    .desc {
+        font-size: 2.5em;
+        font-family: $moskThin;
+    }
+
+    img {
+        margin: 0px auto;
+        margin-top: 20px;
+        display: block;
+        width: 250px;
+    }
+
+    .stores {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        div {
+            padding: 10px;
+        }
+        img {
+            width: 200px;
+            display: block;
+        }
+    }
+
+    @include respond-to($max-responsive) {
+        .desc {
+            font-size: 2em;
+        }
+    }
+
+    @include respond-to($phone) {
+        .desc {
+            font-size: 1.7em;
+        }
+    }
+}
+
+.tab {
+    .tablinks {
+        background: $blueDark;
+        color: white;
+        border: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        &.active {
+            background: $blue2;
+        }
+        
+    }
+}
+
+.tabcontent {
+    display: none;
+
+    &.active {
+        display: block;
+    }
 }

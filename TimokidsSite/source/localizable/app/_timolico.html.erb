@@ -1,0 +1,40 @@
+<section id="app-timolico">
+    <div class="content-medium">
+        <div class="section-title"><%= t(:timolico_title) %></div>
+    </div>
+    <div class="content-medium">
+        <div class="tab" data-target="tab-timolico">
+            <button class="tablinks active" data-target="timolico-histories"><%= t(:timolico_tab_1) %></button>
+            <button class="tablinks" data-target="timolico-persons"><%= t(:timolico_tab_2) %></button>
+        </div>
+    </div>
+    <div id="tab-timolico">
+        
+        <div id="timolico-histories" class="tabcontent active content-medium">
+            <div class="owl-carousel timolico-histories-carousel">
+            <% t(:timolico_hitories).each_with_index do |item,index| %>
+                <div class="item">
+                    <%= image_tag item[:img] %>
+                    <p class="title"><%= item[:name] %></p>
+                    <p><%= item[:desc] %></p>
+                    <div class="ball-theme center" style="background-color: <%= item[:color]%>;"></div>
+                </div> 
+            <% end %>
+            </div>
+        </div>
+        <div id="timolico-persons" class="tabcontent content-medium">
+            <div class="owl-carousel timolico-persons-carousel">
+                <% t(:timolico_persons).each_with_index do |item,index| %>
+                    
+                    <div class="item">
+                        <%= image_tag item[:img] %>
+                        <p class="title"><%= item[:name] %></p>
+                        <p><%= item[:desc] %></p>
+                    </div>
+                    
+                    
+                <% end %>
+            </div>
+        </div>
+    </div>
+</section>

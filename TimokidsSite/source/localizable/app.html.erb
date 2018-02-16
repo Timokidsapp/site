@@ -9,6 +9,9 @@ title: SOBRE NÓS
 <%= partial "menu" %>
 <div id="app-content" class="page-section">
 <%= partial "app/app" %>
+<%= partial "app/timolico" %>
+<%= partial "app/travelers" %>
+<%= partial "app/kidsafe" %>
 </div>
 <%= partial "footer" %>
 
@@ -53,5 +56,61 @@ $(document).ready(function(){
             }
         }
     });
+
+    $(".timolico-histories-carousel, .travelers-histories-carousel").owlCarousel({
+        responsiveClass:true,
+        navText: ["",""],
+        nav:true,
+        responsive:{
+            800:{
+                items:3
+            },
+            569:{
+                items:2
+            },
+            0:{
+                items:1
+            },
+            1200:{
+                items:3
+            }
+        }
+    });
+    
+
+    $(".timolico-persons-carousel, .travelers-persons-carousel").owlCarousel({
+        responsiveClass:true,
+        navText: ["",""],
+        nav:true,
+        responsive:{
+            800:{
+                items:3
+            },
+            569:{
+                items:2
+            },
+            0:{
+                items:1
+            },
+            1200:{
+                items:3
+            }
+        }
+    });
+
+    $(".tab .tablinks").click(function() {
+        var tab_content_id = "#" + $(this).parent().data('target');
+
+        $(this).parent().children(".tablinks").removeClass("active");
+        $(this).addClass("active");
+
+        var tab_content = $(tab_content_id);
+        tab_content.children().removeClass("active");
+        var active_id = "#" + $(this).data('target');
+        var active_tab = $(tab_content_id+ " " +active_id);
+        active_tab.addClass("active");
+    });
 });
+
+
 </script>

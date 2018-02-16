@@ -1,0 +1,40 @@
+<section id="app-travelers">
+    <div class="content-medium">
+        <div class="section-title"><%= t(:travelers_title) %></div>
+    </div>
+    <div class="content-medium">
+        <div class="tab" data-target="tab-travelers">
+            <button class="tablinks active" data-target="travelers-histories"><%= t(:travelers_tab_1) %></button>
+            <button class="tablinks" data-target="travelers-persons"><%= t(:travelers_tab_2) %></button>
+        </div>
+    </div>
+    <div id="tab-travelers">
+        
+        <div id="travelers-histories" class="tabcontent active content-medium">
+            <div class="owl-carousel travelers-histories-carousel">
+            <% t(:travelers_hitories).each_with_index do |item,index| %>
+                <div class="item">
+                    <%= image_tag item[:img] %>
+                    <p class="title"><%= item[:name] %></p>
+                    <p><%= item[:desc] %></p>
+                    <div class="ball-theme center" style="background-color: <%= item[:color]%>;"></div>
+                </div> 
+            <% end %>
+            </div>
+        </div>
+        <div id="travelers-persons" class="tabcontent content-medium">
+            <div class="owl-carousel travelers-persons-carousel">
+                <% t(:travelers_persons).each_with_index do |item,index| %>
+                    
+                    <div class="item">
+                        <%= image_tag item[:img] %>
+                        <p class="title"><%= item[:name] %></p>
+                        <p><%= item[:desc] %></p>
+                    </div>
+                    
+                    
+                <% end %>
+            </div>
+        </div>
+    </div>
+</section>
