@@ -12,6 +12,8 @@
                 <ul class="inline-list">
                     <li><%= link_to t(:contact), path('/contact.html') %></li>
                     <li class="blueBack"><%=t(:subscribe_newsletter) %></li>
+                    <li class="blueBack"><%= link_to "pt", path(current_page.path,{:lang => "pt"}) %></li>
+                    <li class="blueBack"><%= link_to "en", path(current_page.path,{:lang => "en"}) %></li>
                 </ul>
             </div>
         </div>
