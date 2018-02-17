@@ -14,7 +14,7 @@
                                 <%= item[:home_desc] %>
                             </div>
                             <% if item[:has_detail] %>
-                            <%= link_to item[:button], "campaings/" + item[:title] + ".html", :class => 'button' %>
+                            <%= link_to item[:button], path("campaings/" + item[:title] + ".html"), :class => 'button' %>
                             <% end %>
                         </div>
                     </div>

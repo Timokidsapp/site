@@ -13,7 +13,7 @@
                 <div class="title"><%= item[:title] %></div> 
                 <div><%= item[:desc] %></div>
               </div>
-              <%= link_to item[:button], item[:link], :class => 'button' %>
+              <%= link_to item[:button], path(item[:link]), :class => 'button' %>
             </div>
           <% end %>
       </div>

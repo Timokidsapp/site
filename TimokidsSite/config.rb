@@ -15,6 +15,7 @@ page '/*.txt', layout: false
 
 activate :i18n
 activate :directory_indexes
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
@@ -33,11 +34,34 @@ activate :directory_indexes
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+  #
+  # returns the correct path in the current locale
+  # @example
+  # = link_to "bar", url("foo/bar.html")
+  #
+  def path(url, options = {})
+    puts "************* #{I18n.locale.to_s}"
+    lang = options[:lang] || I18n.locale.to_s
+    puts "************* #{lang}"
+    if lang.to_s == 'en'
+      prefix = ''
+    else
+      puts "*************"
+      prefix = "/#{lang}"
+    end
+
+    prefix + "/" + clean_from_i18n(url)
+  end
+
+  # removes an i18n lang code from url if its present
+  def clean_from_i18n(url)
+    parts = url.split('/').select { |p| p && p.size > 0 }
+    parts.shift if langs.map(&:to_s).include?(parts[0])
+
+    parts.join('/')
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
@@ -55,15 +79,22 @@ def self.transform_keys_to_symbols(value)
 end
 
 Dir.glob('locales/*').each do |file|
-  
+  puts "#"*100
   localeID = file.split('.')[0].split('/')[1].to_sym
   yaml = transform_keys_to_symbols(YAML.load_file(file))[localeID]
-
   yaml[:campaings].each do |item|
-    puts "#"*100
-    puts item[:has_detail]
     if item[:has_detail]
-      proxy "#{localeID == :en ? '' :'/'+localeID.to_s}/campaings/#{item[:title]}.html", "/campaings/template.html", :locals => { :item => item }, locale: localeID, :ignore => true
+      page = "#{localeID == :en ? '' :'/'+localeID.to_s}/campaings/#{item[:title]}.html"
+      puts "creating #{page}"
+      proxy page, "/campaings/template.html", :locals => { :title => item[:title], :item => item }, locale: localeID, :ignore => true
+    end
+  end
+
+  yaml[:games_all].each do |item|
+    if item[:has_detail]
+      page = "#{localeID == :en ? '' :'/'+localeID.to_s}/games/#{item[:title]}.html"
+      puts "creating #{page}"
+      proxy page, "/games/detail#{item[:template]}.html", :locals => { :title => item[:title], :item => item }, locale: localeID, :ignore => true
     end
   end
 end

@@ -3,12 +3,18 @@
     <div class="content-games owl-carousel">
         <% t(:games_all).each do |item| %>
             <div class="item">
-            <%= image_tag item[:img] %>
-                <a href="">
-                    <div class="title"><%= item[:title] %></div>
-                    <div><%= item[:desc] %></div>
-                </a>
+            <% if item[:has_detail] %>
+            <a href="<%= path("/games/#{item[:title]}") %>">
+            <% end %>
+                <%= image_tag item[:img] %>
+                
+                <div class="title"><%= item[:title] %></div>
+                <div><%= item[:desc] %></div>
+            <% if item[:has_detail] %>
+            </a>    
+            <% end %>
             </div>
+            
         <% end %>
     </div>
 </section>

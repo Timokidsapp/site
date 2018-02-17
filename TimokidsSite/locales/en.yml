@@ -254,15 +254,67 @@ en:
     - img: "games/coloring.png"
       title: "Coloring"
       desc: "Game to paint and color the Timokids characters"
+      has_detail: true
+      template: 1
+      items:
+        - title: "Como Jogar"
+          paragraphs:
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
       link: ""
     - img: "games/memory.png"
       title: "Memory"
       desc: "Make pairs using concentration and memory"
       link: ""
+      has_detail: true
+      template: 2
+      items:
+        - title: "Como Jogar"
+          paragraphs:
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+      rules: 
+        - title: "Como Jogar"
+          paragraphs:
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
     - img: "games/tictactoe.png"
       title: "Tic-Tac-Toe"
       desc: "Use your reasoning on this classic game"
       link: ""
+      has_detail: true
+      template: 3
+      items:
+        - title: "Como Jogar"
+          paragraphs:
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            
+      video: "https://www.youtube.com/embed/LGoPhjg39kg?wmode=transparent"
     - img: "games/piano.png"
       title: "Piano"
       desc: "In this game, you need to be quick and click the keys to play a song from beginning to end"
@@ -491,6 +543,7 @@ en:
 
 
   #CAMPANHA 1    
+  campaing_thanks: "Agradecimento e parceiros"
   campaings:
     - title: "Goodbye Aedes"
       home_img: "home/campaings/fotomini_Aedes1.png"
@@ -499,6 +552,8 @@ en:
       show_home: true
       has_detail: true
       notice:
+        - template: "img-full"
+          img: "social/white.png"
         - template: "right"
           img: "products/logo_TKAPp.png"
           paragraphs: 

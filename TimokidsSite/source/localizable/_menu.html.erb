@@ -3,14 +3,14 @@
         <div id="menu-top-content" class="content-medium">
             <div>
                 <ul class="inline-list">
-                    <li><%= link_to t(:about_menu), '/about.html' %></li>
-                    <li><%= link_to t(:our_team), '/team.html' %></li>
+                    <li><%= link_to t(:about_menu), path('/about.html') %></li>
+                    <li><%= link_to t(:our_team), path('/team.html') %></li>
                     <li><a href='https://www.timokids.com.br/en/blog/'target="_blank"  %><%= t(:blog) %></a></li>
                 </ul>
             </div>
             <div>
                 <ul class="inline-list">
-                    <li><%= link_to t(:contact), '/contact.html' %></li>
+                    <li><%= link_to t(:contact), path('/contact.html') %></li>
                     <li class="blueBack"><%=t(:subscribe_newsletter) %></li>
                 </ul>
             </div>
@@ -24,16 +24,16 @@
                 </span>
             </button>
             <div class="menu-logo">
-                <% link_to "index.html" do %> 
+                <% link_to path("/index.html") do %> 
                     <%= image_tag 'logo_TK.png' %>
                 <% end %>
             </div>
             <div class="menu-sections">
                 <ul class="inline-list">
-                    <li><%= link_to t(:timo_app), '/app.html' %></li>
-                    <li><%= link_to t(:timo_school), '/school.html' %></li>
-                    <li><%= link_to t(:timo_social), '/social.html' %></li>
-                    <li><%= link_to t(:timo_games), '/games.html' %></li>
+                    <li><%= link_to t(:timo_app), path('/app.html') %></li>
+                    <li><%= link_to t(:timo_school), path('/school.html') %></li>
+                    <li><%= link_to t(:timo_social), path('/social.html') %></li>
+                    <li><%= link_to t(:timo_games), path('/games.html') %></li>
                 </ul>
             </div>
 

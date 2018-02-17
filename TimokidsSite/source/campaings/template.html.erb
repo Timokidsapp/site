@@ -1,5 +1,5 @@
 ---
-title: teste
+title: Timokids
 ---
 <%= stylesheet_link_tag 'global' %>
 <%= partial "menu" %>
@@ -7,6 +7,13 @@ title: teste
     <section id="campaign-notice" class="content-medium">
         <div class="section-title"><%= item[:title] %></div>
         <% item[:notice].each do |notice| %>
+            <% if notice[:template] == 'img-full' %>
+                <div class="content-image-full">  
+                    <div class="img">
+                        <%= image_tag notice[:img] %>
+                    </div>
+                </div>
+            <% end %>
             <% if notice[:template] == 'right' %>
                 <div class="content-image-right">  
                     <div class="text">
@@ -42,7 +49,7 @@ title: teste
             <% end %>
 
             <% if notice[:template] == 'images' %>
-                <div class="images">
+                <div class="images-gallery">
                     <% notice[:imgs].each do |img| %>
                         <div><%= image_tag img %></div>
                     <% end %>
@@ -55,7 +62,7 @@ title: teste
         
     </section>
     <section id="campaign-thanks" class="content-medium">
-        <div class="section-title"><%= item[:title] %></div>
+        <div class="section-title"><%= t(:campaing_thanks) %></div>
         <div class="names">
             <% item[:thanks_names].each do |img| %>
                 <div><%= img %></div>

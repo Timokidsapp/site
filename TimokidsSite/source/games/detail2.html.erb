@@ -1,0 +1,50 @@
+<%= stylesheet_link_tag 'global' %>
+<%= partial "menu" %>
+<div class="page-section">
+    <section id="games-detail-2" class="games-detail content-medium"> 
+    <div class="section-title"><%= item[:title] %></div>
+
+    <div class="content">
+
+        <div class="left">
+            <%= image_tag item[:img] %>
+        </div>
+        <div class="right">
+            <% item[:items].each do |item| %>
+                <p class="item-title"><%= item[:title] %></p>
+                <% item[:paragraphs].each do |p| %>
+                    <p class="item-p"><%= p %></p>
+                <% end %>
+            <% end %>
+        </div>
+    </div>
+    <div class="rules">
+        <% item[:items].each do |item| %>
+            <p class="item-title"><%= item[:title] %></p>
+            <% item[:paragraphs].each do |p| %>
+                <p class="item-p"><%= p %></p>
+            <% end %>
+        <% end %>
+    </div>
+    </section>
+</div>
+<%= partial "footer" %>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+    $(".menu-left").click(function() {
+          $(this).toggleClass( "is-active" );
+          $(".menu-sections").toggleClass( "active" );
+      });
+  
+      $(".menu-right").click(function() {
+          $("#menu-top").toggleClass( "active" );
+          $(this).toggleClass( "is-active" );
+    });
+});
+</script>

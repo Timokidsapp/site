@@ -12,6 +12,7 @@ $blueLight: #477f9f;
 $gray: #333333;
 $grayMedium: #9ea2a9;
 $grayLight: #9ea2a9;
+$grayHighLight: rgb(216,216,216);
 $gray: #333333;
 $grayFooterSite: #434343;
 $orange: #cc731b;
@@ -1387,6 +1388,132 @@ ul {
 }
 
 
+.games-detail {
+    .item-title {
+        font-family: $moskSemiBold;
+        font-size: 1.4em;
+    }
+}
+
+#games-detail-1 {
+    .content {
+        display: flex;
+    
+        .left {
+            padding-right: 50px;
+        }
+        .right {
+            padding-top: 30px;
+        }
+    }
+
+    @include respond-to($max-responsive) {
+        .content {
+            flex-direction: column;
+
+            flex-flow: column-reverse;
+            
+            .right {
+                width: 100%;
+                img {
+                    display: block;
+                    margin: 0px auto;
+                }
+                margin-bottom: 30px;
+            }
+            .left {
+                padding-right: 0px;
+            }
+        }
+        
+        
+    }
+}
+
+#games-detail-2 {
+    .content {
+        display: flex;
+    
+        .left {
+            padding-top: 30px;
+            padding-right: 50px;
+        }
+    }
+
+    .rules {
+        margin-top: 30px;
+        border-radius: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
+        background-color: $blue2;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        color: white;
+    }
+    @include respond-to($max-responsive) {
+        .content {
+            flex-wrap: wrap;
+
+
+            
+            .left {
+                width: 100%;
+                img {
+                    display: block;
+                    margin: 0px auto;
+                }
+                margin-bottom: 30px;
+            }
+        }
+
+        .rules {
+            padding-left: 30px;
+            padding-right: 30px;
+        }   
+    }
+}
+
+#games-detail-3 {
+    .content {
+        padding-left: 60px;
+        padding-right: 60px; 
+        text-align: center;
+        margin-bottom: 50px;
+    }   
+
+    .video { 
+        
+        width: 50%;
+        margin: 0px auto;
+        position: relative;
+        padding-bottom: 30%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+        
+        iframe, object, embed { 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    @include respond-to($max-responsive) {
+        .content {
+            padding: 0px;
+
+        }
+    }
+
+    .video { 
+        width: 80%;
+        padding-bottom: 40%; /* 16:9 */
+    }
+}
+
 
 
 // CONTACT
@@ -1403,14 +1530,17 @@ ul {
         .left {
             font-family: $moskThin;
             font-size: 2em;
+            margin-right: 50px;
         }
 
         .right {
+            width: 40%;
             text-align: center;
-            background-color: $blue2;
+            background-color: $blueLight;
             padding-left: 50px;
+            padding-top: 30px;
             padding-right: 50px;
-            padding-bottom: 20px;
+            padding-bottom: 50px;
             border-radius: 20px;
             input, textarea {
                 width: 100%;
@@ -1418,31 +1548,19 @@ ul {
                 font-size: 1.2em;
                 font-family: $moskMedium;
                 border: 0px;
-                background: $grayLight;
-                border-radius: 10px;
-                color: white;
+                background: $grayHighLight;
+                border-radius: 5px;
+                color: $gray;
                 padding-left: 20px;
                 padding-right: 20px;
-
-                ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-                    color:rgba(255,255,255,1);
-                    opacity: 1; /* Firefox */
-                }
-                
-                :-ms-input-placeholder { /* Internet Explorer 10-11 */
-                    color:rgba(255,255,255,1)
-                }
-                
-                ::-ms-input-placeholder { /* Microsoft Edge */
-                    color:rgba(255,255,255,1)
-                }
             }
             
             input {
-                height: 40px;
+                height: 45px;
             }
 
             textarea {
+                padding-top: 20px;
                 height: 150px;
             }
 
@@ -1456,9 +1574,9 @@ ul {
 
             }
         }
+        
 
-
-        @include respond-to($tablet-portrait) {
+        @include respond-to($max-responsive) {
             
             flex-wrap: wrap;
 
@@ -1467,19 +1585,33 @@ ul {
             }
 
             .left {
+                margin-right: 0px;
                 font-size: 1.7em;
             }
 
             .right {
                 margin-top: 20px;
-                padding-left: 20px;
-                padding-right: 20px;
+                padding-left: 40px;
+                padding-right: 40px;
             }
                 
 
         }
 
     }
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:$grayLight;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:$grayLight;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:$grayLight;
 }
 
 #team {
@@ -1722,6 +1854,17 @@ ul {
 #campaign {
     #campaign-notice {
         font-size: 1.2em;
+
+        .content-image-full {
+            img {
+                display: block;
+                max-width: 100%;
+                margin: 0px auto;
+                margin-bottom: 20px;
+
+            }
+        }
+
         .content-image-right, .content-image-left {
             display: flex;
         }
@@ -1737,7 +1880,7 @@ ul {
             }
         }
 
-        .images {
+        .images-gallery {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -1749,9 +1892,32 @@ ul {
                 }
             }
         }
+
+        @include respond-to($max-responsive) {
+            .content-image-right, .content-image-left {
+                flex-wrap: wrap;
+                .text {
+                    width: 100%;
+                }
+                .images {
+                    width: 100%;
+                    img {
+                        display: block;
+                        max-width: 100%;
+                        margin: 0px auto;
+                        margin-bottom: 20px;
+                    }    
+                }
+                
+
+            }
+
+
+        }
     }
 
     #campaign-thanks {
+        margin-top: 90px;
         .names, .logos {
             display: flex;
             flex-wrap: wrap;
@@ -1768,6 +1934,7 @@ ul {
            }
         }
         .logos {
+            margin-top: 30px;
             div {
                 padding: 10px;
                 height: 200px; 

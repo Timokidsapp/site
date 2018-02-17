@@ -4,18 +4,18 @@
             <div class="item">
                 <p class="footer-title">About us</p>
                 <ul>
-                    <li><%= link_to t(:about_menu), '/about.html' %></li>
-                    <li><%= link_to t(:our_team), '/about.html' %></li>
-                    <li><%= link_to t(:blog), '/about.html' %></li>
+                    <li><%= link_to t(:about_menu), path('/about.html') %></li>
+                    <li><%= link_to t(:our_team), path('/team.html') %></li>
+                    <li><%= link_to t(:blog), "https://www.timokids.com.br/en/blog/" %></li>
                 </ul>
             </div>
             <div class="item">
                 <p class="footer-title">Products</p>
                 <ul>
                     <li><%=t(:timo_app) %></li>
-                    <li><%= link_to t(:timo_school), '/school.html' %></li>
-                    <li><%= link_to t(:timo_social), '/social.html' %></li>
-                    <li><%= link_to t(:timo_games), '/games.html' %></li>
+                    <li><%= link_to t(:timo_school), path('/school.html') %></li>
+                    <li><%= link_to t(:timo_social), path('/social.html') %></li>
+                    <li><%= link_to t(:timo_games), path('/games.html') %></li>
                 </ul>
             </div>
             <div class="item">

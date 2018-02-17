@@ -11,7 +11,9 @@ title: SOBRE NÓS
 <%= partial "app/app" %>
 <%= partial "app/timolico" %>
 <%= partial "app/travelers" %>
+<%= partial "games/games" %>
 <%= partial "app/kidsafe" %>
+
 </div>
 <%= partial "footer" %>
 
@@ -110,6 +112,26 @@ $(document).ready(function(){
         var active_tab = $(tab_content_id+ " " +active_id);
         active_tab.addClass("active");
     });
+
+    $('.content-games').owlCarousel({
+            responsiveClass:true,
+            nav:true,
+            navText: ["",""],
+            responsive:{
+                800:{
+                    items:3
+                },
+                569:{
+                    items:2
+                },
+                0:{
+                    items:1
+                },
+                1200:{
+                    items:4
+                }
+            }
+        });
 });
 
 
