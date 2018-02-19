@@ -469,28 +469,28 @@ en:
 
   
   timolico_persons:
-    - img: "products/logo_TKAPp.png"
+    - img: "app/turma_timolico/timo_1.png"
       name: "Enzo"
       desc: "Enzo the ferret is very smart and playful. He is very funny and always has a joke ready for any situation."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/turma_timolico/timo_2.png"
       name: "Timolico"
       desc: "A very kind and optimistic chinchilla who always tries to see the best in people.  He is always willing to help his friends."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/turma_timolico/timo_3.png"
       name: "Kyra"
       desc: "A very beautiful but vain cockatiel. She is always worried about her appearance and carries her make-up and mirror with her wherever she goes."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/turma_timolico/timo_4.png"
       name: "Artur"
       desc: "Despite being the youngest of the group, Artur the snail is very mature and is the best student of them all."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/turma_timolico/timo_5.png"
       name: "Marta"
       desc: "Quieter and less playful than the others, Marta the iguana is ready to give advice to her friends when they need it and is the most caring of the group."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/turma_timolico/timo_1.png"
       name: "Dona Telma"
       desc: "Mãe e protetora de seus filhos Timolico e Ivo, ela é famosa por ser uma ótima cozinheira e sempreconvida a turma para provar seus doces e guloseimas. Sempre aconselha e ajuda seus filhos, masquando aprontam, não hesita em dar um puxão de orelha."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/turma_timolico/timo_1.png"
       name: "Ivo"
       desc: "Irmãozinho mais novo de Timolico, adora brincar com seu irmão e tenta se enturmar entre os maisvelhos. Ele ama o colo de sua mãe e vai correndo para ela quando as coisas dão errado."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/turma_timolico/timo_1.png"
       name: "Professora Inês"
       desc: "Inês é uma coruja muito esperta e sensate. Sempre de olho em seus alunos, está mais do que preparadapara ensinar e ajudar uma sala cheia de alunos divertidos e brincalhões"
 
@@ -505,35 +505,35 @@ en:
   travelers_hitories: 
     - <<: *theme_1
       desc: ""
-      img: "products/logo_TKAPp.png"
+      img: "app/travelers/viaj_1.png"
     - <<: *theme_2
       desc: ""
-      img: "products/logo_TKAPp.png"
+      img: "app/travelers/viaj_2.png"
     - <<: *theme_3
       desc: ""
-      img: "products/logo_TKAPp.png"
+      img: "app/travelers/viaj_3.png"
     - <<: *theme_4
       desc: ""
-      img: "products/logo_TKAPp.png"
+      img: "app/travelers/viaj_4.png"
     - <<: *theme_5
       desc: ""
-      img: "products/logo_TKAPp.png"
+      img: "app/travelers/viaj_5.png"
 
   
   travelers_persons:
-    - img: "products/logo_TKAPp.png"
+    - img: "app/travelers/viaj_1.png"
       name: "Lucas"
       desc: "Um garoto curioso, que não larga o seu skate, e adora viver grandes aventuras ao lado de seus amigos. Ama viajar econhecer novas culturas, histórias e hábitos. Tem uma atitude sempre otimista, e quase nada deixa ele de mau humor."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/travelers/viaj_2.png"
       name: "Igor"
       desc: "Um menino amável, esperto, forte, ruivo e vive comendo qualquer coisa. O pai do Igor é padeiro e Igor aprendeu acozinhar com sua mãe que adora assistir programas de culinária."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/travelers/viaj_3.png"
       name: "Julia"
       desc: "A mais nova, timida e muito inteligente. Ela adora a natureza e tem uma conexão especial com bichinhos."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/travelers/viaj_4.png"
       name: "Léo"
       desc: "Irmão gêmeo de Lia. Garoto muito esperto e que gosta de música. Vive grudado nos seus fones de ouvido."
-    - img: "products/logo_TKAPp.png"
+    - img: "app/travelers/viaj_5.png"
       name: "Lia"
       desc: "Irmã gêmea de Léo, protetora, ela vive dançando e sonha em ser bailarina um dia. Léo e Lia são órfãos, e foram criadospela avó, com quem vivem."
 

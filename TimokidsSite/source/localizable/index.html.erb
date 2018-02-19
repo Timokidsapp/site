@@ -20,7 +20,6 @@ title: Timokids
     <%= partial "home/blog" %>
     <%= partial "home/social" %>
     <%= partial "home/imprensa" %>
-
 </div>
 <%= partial "footer" %>
 <script
@@ -111,6 +110,9 @@ $(document).ready(function(){
 
     $('.campaign-carousel').owlCarousel({
         nav:true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
         navText: ["",""],
         items:1,
         margin:10,

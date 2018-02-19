@@ -114,7 +114,9 @@ a {
 .inline-list {
   padding: 0px;
   margin: 0px;
+  display: flex;
   li { 
+      align-self: center;
       display: inline-flex;
       list-style: none; 
   }
@@ -266,6 +268,25 @@ ul {
     top: 0;
     left: 0;
     z-index: 995;
+
+    #menu-top-resp {
+        display: none;
+        background-color: $blueDark;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        .content {
+            width: 100%;
+            display: flex;
+            
+            justify-content: flex-end;
+            img {   
+                width: 20px;
+            }
+        }
+        
+    }
+    
     #menu-top {
         display: flex;
         
@@ -358,7 +379,11 @@ ul {
     }
 
     @include respond-to($max-responsive) {
-        
+        #menu-top-resp {
+            display: block;
+            
+            
+        }
         #menu-top {
             opacity: 0.1;
             left: 0;
@@ -467,6 +492,18 @@ ul {
     }
 }
 
+.lang-img {
+    padding: 0px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    &:first-child {
+        margin-right: 3px;
+    }
+    img {   
+        width: 20px;
+    }
+}
 
 
 // HOME VIDEO
@@ -1163,17 +1200,25 @@ ul {
     font-size: 1.2em;
     color: $blueDark;
 
+
+    
+}
+
+.stores {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    div {
+        padding: 10px;
+    }
+    img {
+        width: 200px;
+        display: block;
+    }
+}
+@include respond-to($tablet-portrait) {
     .stores {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        div {
-            padding: 10px;
-        }
-        img {
-            width: 200px;
-            display: block;
-        }
+        flex-wrap: wrap;
     }
 }
 
@@ -1824,25 +1869,14 @@ ul {
         width: 250px;
     }
 
-    .stores {
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        div {
-            padding: 10px;
-        }
-        img {
-            width: 200px;
-            display: block;
-        }
-    }
-
+    
     @include respond-to($max-responsive) {
         .desc {
             font-size: 2em;
         }
     }
-
+    
+    
     @include respond-to($phone) {
         .desc {
             font-size: 1.7em;

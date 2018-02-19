@@ -1,4 +1,15 @@
 <div id="menu">
+    <div id="menu-top-resp">
+        <div class="content-medium content">
+            <% link_to  path(current_page.path,{:lang => "pt"}) do%>
+                <%= image_tag 'images/pt.png' %>
+            <% end %>
+            <% link_to  path(current_page.path,{:lang => "en"}) do%>
+                <%= image_tag 'images/en.png' %>
+                
+            <% end %>
+        </div>
+    </div>
     <div id="menu-top" >
         <div id="menu-top-content" class="content-medium">
             <div>
@@ -12,8 +23,15 @@
                 <ul class="inline-list">
                     <li><%= link_to t(:contact), path('/contact.html') %></li>
                     <li class="blueBack"><%=t(:subscribe_newsletter) %></li>
-                    <li class="blueBack"><%= link_to "pt", path(current_page.path,{:lang => "pt"}) %></li>
-                    <li class="blueBack"><%= link_to "en", path(current_page.path,{:lang => "en"}) %></li>
+                    <li class="lang-img">
+                        <% link_to  path(current_page.path,{:lang => "pt"}) do%>
+                            <%= image_tag 'images/pt.png' %>
+                        <% end %>
+                        <% link_to  path(current_page.path,{:lang => "en"}) do%>
+                            <%= image_tag 'images/en.png' %>
+                        <% end %>
+                    </li>
+
                 </ul>
             </div>
         </div>

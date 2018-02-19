@@ -41,25 +41,32 @@ helpers do
   # = link_to "bar", url("foo/bar.html")
   #
   def path(url, options = {})
-    puts "************* #{I18n.locale.to_s}"
+    puts "&&&&&&#{options[:lang]}"
     lang = options[:lang] || I18n.locale.to_s
-    puts "************* #{lang}"
     if lang.to_s == 'en'
       prefix = ''
     else
-      puts "*************"
+
       prefix = "/#{lang}"
     end
-
-    prefix + "/" + clean_from_i18n(url)
+    
+    rUrl = prefix + "/" + clean_from_i18n(url)
+    puts "%%%%%%%#{url}"
+    puts "%%%%%%%#{rUrl}"
+    puts "%%%%%%%#{clean_from_i18n(url)}"
+    return rUrl
+    
   end
 
   # removes an i18n lang code from url if its present
   def clean_from_i18n(url)
     parts = url.split('/').select { |p| p && p.size > 0 }
     parts.shift if langs.map(&:to_s).include?(parts[0])
-
     parts.join('/')
+  end
+
+  def root_url() 
+    return ""
   end
 end
 
@@ -104,8 +111,8 @@ end
 # end
 
 configure :build do
-  set :http_prefix, "/novosite"
-  activate :asset_host, :host => 'https://www.timokids.com.br/novosite/'
+  set :http_prefix, subPage
+  activate :asset_host, :host => 'https://www.timokids.com.br/#{subPage}'
   activate :minify_css
   activate :minify_javascript
 end
