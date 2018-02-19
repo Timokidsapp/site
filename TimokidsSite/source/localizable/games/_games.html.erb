@@ -4,7 +4,7 @@
         <% t(:games_all).each do |item| %>
             <div class="item">
             <% if item[:has_detail] %>
-            <a href="<%= path("games/#{item[:title]}") %>">
+            <a href="<%= root_url() + path("games/#{item[:title]}") %>">
             <% end %>
                 <%= image_tag item[:img] %>
                 
