@@ -18,7 +18,7 @@ en:
   timo_games: "Timokids Games"
 
 
-  video_home_title: "We exist to help and educate children to face their emotional challenges."
+  video_home_title: "Our sole purpose is to support children, so they will face their emotional challenges."
   video_home_dec: "Through the methodology of identification, translation, and adaptation to the childhood universe, we produce materials about complex themes important to children’s education. We provide access to this material through digital platforms that allow its conceptual approach to be followed and that provoke a change in behavior while driving positive social impact."
 
 
@@ -109,7 +109,7 @@ en:
       desc: "Followers"
       link: "https://twitter.com/timokids"
 
-  depoiments_home_title: "Depoimentos"
+  depoiments_home_title: "Statmets"
   depoiments_items:
     - img: "products/logo_TKAPp.png"
       name: "Vinucho"
@@ -129,7 +129,7 @@ en:
       depoiment: "Nesta ação foram distribuídos 2.500 livros com a história. Previnir é o maior remédio para crianças da ONG Casa de Zezinho."
 
 
-  imp_home_title: "Media"
+  imp_home_title: "Press Office"
   imp_items:
     - img: "assessoria/assessoria1.png"
       title: "TimoKids: An App to Teach Children Life’s Most Important Lessons"
@@ -138,7 +138,7 @@ en:
       link: "http://pulsosocial.com/en/2014/02/07/timokids-an-app-to-teach-children-lifes-most-important-lessons/"
     - img: "assessoria/assessoria2.png"
       title: "Timokids launch partnership with Saúde Criança"
-      desc: "The donation was prompted by the arrival of children’s month and intermediated by the PlataformaSaúde, initiating the partnership between theSaúdeCriançaassociation andTimokids. Ten thousand digital vouchers for the story-telling/gaming app were donated, which will give users free access to three socio-educational stories available in the paid plan: ‘Reading is fun’, ‘All I want is respect’, and ‘There is beauty in our differences’."
+      desc: "The donation was prompted by the arrival of children’s month and intermediated by the Plataforma Saúde, initiating the partnership between the Saúde Criança association and Timokids. Ten thousand digital vouchers for the story-telling/gaming app were donated, which will give users free access to three socio-educational stories available in the paid plan: ‘Reading is fun’, ‘All I want is respect’, and ‘There is beauty in our differences’."
       button: "Know more"
       link: "http://www.saudecrianca.org.br/en/novidades/timokids-inicia-parceria-com-o-saude-crianca/"
     - img: "assessoria/assessoria3.png"
@@ -152,7 +152,7 @@ en:
   what_desc: "We offer learning and content solutions relevant to the education of children, in a safe and positive manner and in a format that allows them to be impacted inside or outside the home or school. With this we help families, teachers, and organizations and stimulate the development of children with the goal of raising responsible adults."
 
   approach_title: "Approach"
-  approach_subtitle: "Timokids is a socio-educational content factory that can be distributed in various media formats."
+  approach_subtitle: "Timokids is a socio-educational content factory, which may be assigned on several media formats."
   approach_desc: "We have created a way to approach children in a children’s world. It’s fun and interactive and our concern is to teach, guide, and educate using socio-educative technology as an ally in the education of children."
 
   objectives:
@@ -257,16 +257,10 @@ en:
       has_detail: true
       template: 1
       items:
-        - title: "Como Jogar"
+        - title: "How to play"
           paragraphs:
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "Game to paint and color the Timokids’ characters! You will find diverse coloring images here, select the preferred image and hands on. Paint everything and make it all wonderful with various colors!"
+            - "Timokids also enables the child to capture their own drawings, thus, the parents can follow their kids’ colorful artwork, stored in the smartphone’s photo gallery!"
       link: ""
     - img: "games/memory.png"
       title: "Memory"
@@ -275,27 +269,12 @@ en:
       has_detail: true
       template: 2
       items:
-        - title: "Como Jogar"
+        - title: "How to play"
           paragraphs:
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-      rules: 
-        - title: "Como Jogar"
-          paragraphs:
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "How to play: A set of cards is placed on face-down position. The player must choose two cards and flip them. If they form a pair, they are removed from the game. If they don’t, they are faced down again. This process must repeat itself until all the cards are removed."
+            - "The game’s goal is to flip the cards and memorize their drawings and positioning. Therefore, when a card is flipped, you have to try and remember if you have seen its pair in the game, and try to find it."
+            - "Apart from being an excellent game for memory training, it’s a fun entertainment, interesting for concentration training, so the player can memorize and choose the right cards. Thus, it may be utilized by parents and teachers as an educative game for children."
+
     - img: "games/tictactoe.png"
       title: "Tic-Tac-Toe"
       desc: "Use your reasoning on this classic game"
@@ -303,16 +282,14 @@ en:
       has_detail: true
       template: 3
       items:
-        - title: "Como Jogar"
+        - title: "How to play"
           paragraphs:
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
-            - "aosidj qd iuqwhd qwd qud q udq ud qh ih qiwo dhiqw hdiqh diuqh diuq wuhqiud qiu q dixq hiuxhqw uqxhi xhqw hxqiuwhxqi uwhxq iuwdhxq wiuxhqwiudhq iwdhqiuwd iqw diuq wd hq uhqdwih diuqhw iuda"
+            - "Employ your logical thinking into this classic and popular game. With extremely simple rules, which doesn’t bring hardships to the player and can be easily learned."
+            - "Game’s Objective: The first to make a sequence of three equal characters, horizontal, vertical or diagonal."
+            - "Rules: A player may use the characters: Timolico or Artur."
+            - "Each player, on their turn, places the character in an empty circle."
+            - "When a player fulfills the objective, three equal characters are crossed."
+            - "The best play from both parties leads to a draw."
             
       video: "https://www.youtube.com/embed/LGoPhjg39kg?wmode=transparent"
     - img: "games/piano.png"
@@ -320,19 +297,19 @@ en:
       desc: "In this game, you need to be quick and click the keys to play a song from beginning to end"
       link: ""
     - img: "games/puzzle.png"
-      title: "Jigsaw Puzzle "
+      title: "Jigsaw Puzzle"
       desc: "Choose from Timokids pictures and put together pieces to solve the puzzle"
       link: ""
     - img: "games/findmistakes.png"
-      title: "Find the Mistakes"
+      title: "Spot the Differences"
       desc: "Pay close attention and find the seven differences between the two pictures"
       link: ""
     - img: "games/roghtchoice.png"
-      title: "Right Choice"
+      title: "Right Choice!"
       desc: "Educational game for children using numbers"
       link: ""
     - img: "games/side.png"
-      title: "Side by side"
+      title: "Side by Side"
       desc: "Develop agility to choose the right side of the picture"
       link: ""
     - img: "games/add.png"
@@ -360,6 +337,10 @@ en:
       desc: "Good luck jumping the field that doesn’t have a bomb"
       link: ""
     - img: "games/connecttheletters.png"
+      title: "Guess the Letter"
+      desc: "This is a game that favors the writing, through the alphabetization period."
+      link: ""
+    - img: "games/connecttheletters.png"
       title: "Connect the letters"
       desc: "This game is to learn writing, while a child learns literacy"
       link: ""
@@ -379,11 +360,10 @@ en:
       title: "Tangram"
       desc: "Chinse jigsaw puzzle, set up the picture in whatever way seems best to you"
       link: ""
-    
 
 # CONTACT
   contact_title: "Contact"
-  contact_desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+  contact_desc: "frase esta para traduzir com o Vinicio"
   contact_name: "Name"
   contact_email: "E-mail"
   contact_message: "Message"
@@ -393,21 +373,17 @@ en:
 
   team_title: "Our team"
   team_persons:
-    - name: "teste"
+    - name: "Fabiany Lima"
       office: "CEO"
-      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+      desc: "Mother of twins, MBA in Business Management, Founded 3 companies, Speaker, mentor and columnist of entrepreneurship and Wrote 18 book for children."
       img: "products/logo_TKAPp.png"
-    - name: "teste"
-      office: "CEO"
-      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+    - name: "Vinicius Lima "
+      office: "CTO"
+      desc: "13 years experience in Development and Team management, Developer web and mobile, Graduated in computer science and Specialization in oriented objects."
       img: "products/logo_TKAPp.png"
-    - name: "teste"
-      office: "CEO"
-      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
-      img: "products/logo_TKAPp.png"
-    - name: "teste"
-      office: "CEO"
-      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+    - name: "Maritza Arroyo"
+      office: "CBO"
+      desc: "13+ years experience in education for profit and NGOs, 20+ years of leadership experience and Raise over $70M in revenue University of Chicago Booth School of Business Executive Leadership"
       img: "products/logo_TKAPp.png"
 
 
@@ -431,10 +407,10 @@ en:
     name: "Citizenship and Sustainability"
   theme_4: &theme_4
     color: "#FF0000"
-    name: "Health and safety"
+    name: "Health and Security"
   theme_5: &theme_5
     color: "#7FFFD4"
-    name: "Childhood day-to-day"
+    name: "Child’s Daily Life"
   
 
     
@@ -445,26 +421,77 @@ en:
     - <<: *theme_4
     - <<: *theme_5
 
-  timolico_title: "Turma do Timolico"
+  timolico_title: "Timolico Crew’s Stories"
 
-  timolico_tab_1: "Hitories"
-  timolico_tab_2: "Persons"
+  timolico_tab_1: "Stories"
+  timolico_tab_2: "Characters"
 
   timolico_hitories: 
     - <<: *theme_1
-      desc: ""
+      desc: "Happy birthday, Timolico"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "The important thing is to participate"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "Beauty of differences"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "The magic words"
       img: "products/logo_TKAPp.png"
     - <<: *theme_2
-      desc: ""
+      desc: "First day at school"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Where’s my car toy?"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Reading is fun"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Time to learn, playing is enough"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Go away, laziness!"
       img: "products/logo_TKAPp.png"
     - <<: *theme_3
-      desc: ""
+      desc: "Helping the blue planet"
       img: "products/logo_TKAPp.png"
     - <<: *theme_4
-      desc: ""
+      desc: "I can’t eat"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Time to sleep, is time to rest"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Balanced meal does good!"
       img: "products/logo_TKAPp.png"
     - <<: *theme_5
-      desc: ""
+      desc: "A life lesson"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "This is my friend"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Brothers’ play"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "My new brother"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "A five star lesson"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Learning to share"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Lies don’t travel far"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "The fear that lives in the room’s darkness"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Bath’s scent is great!"
       img: "products/logo_TKAPp.png"
 
   
@@ -485,57 +512,133 @@ en:
       name: "Marta"
       desc: "Quieter and less playful than the others, Marta the iguana is ready to give advice to her friends when they need it and is the most caring of the group."
     - img: "app/turma_timolico/timo_1.png"
-      name: "Dona Telma"
-      desc: "Mãe e protetora de seus filhos Timolico e Ivo, ela é famosa por ser uma ótima cozinheira e sempreconvida a turma para provar seus doces e guloseimas. Sempre aconselha e ajuda seus filhos, masquando aprontam, não hesita em dar um puxão de orelha."
+      name: "Mrs. Telma"
+      desc: "Mother and guardian of her children, Timolico and Ivo, famous for being a great cook and always inviting the crew to taste her sweets and treats. Always advises and supports her children, but when they misbehave, she doesn’t hesitate on the discipline."
     - img: "app/turma_timolico/timo_1.png"
       name: "Ivo"
-      desc: "Irmãozinho mais novo de Timolico, adora brincar com seu irmão e tenta se enturmar entre os maisvelhos. Ele ama o colo de sua mãe e vai correndo para ela quando as coisas dão errado."
+      desc: "Timolico’s little brother, loves to play with his brother and tries to befriend the older colleagues. He loves his mother’s lap, and runs to it whenever things turn out wrong."
     - img: "app/turma_timolico/timo_1.png"
-      name: "Professora Inês"
-      desc: "Inês é uma coruja muito esperta e sensate. Sempre de olho em seus alunos, está mais do que preparadapara ensinar e ajudar uma sala cheia de alunos divertidos e brincalhões"
+      name: "Teacher Inez"
+      desc: "Inez is a very smart and prudent owl. Always keeping her eyes on her students, more than ready to teach and support a class full of fun and playful students."
 
 
 
 
-  travelers_title: "Travelers"
+  travelers_title: "Travellers Crew’s Stories"
 
-  travelers_tab_1: "Hitories"
-  travelers_tab_2: "Persons"
+  travelers_tab_1: "Stories"
+  travelers_tab_2: "Characters"
 
   travelers_hitories: 
     - <<: *theme_1
-      desc: ""
-      img: "app/travelers/viaj_1.png"
+      desc: "Everything I want is respect"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "Girls also know how to play"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "Together is merrier"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "Everything on its time"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "The bothering praise"
+      img: "products/logo_TKAPp.png"
     - <<: *theme_2
-      desc: ""
-      img: "app/travelers/viaj_2.png"
+      desc: "My parents in the school"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Studying to grow up"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Respecting our teachers"
+      img: "products/logo_TKAPp.png"
     - <<: *theme_3
-      desc: ""
-      img: "app/travelers/viaj_3.png"
+      desc: "Little years, big attitudes"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "Doing my share"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "Our friendly pet"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "A fair future"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "Recycling play"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "It’s children’s day"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "Preserving public goods"
+      img: "products/logo_TKAPp.png"
     - <<: *theme_4
-      desc: ""
-      img: "app/travelers/viaj_4.png"
+      desc: "Refuse the cigarette"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Observing the messages"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Smooth and aware traffic"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Preserving food"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Hello vaccine, bye-bye disease"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Play on the kitchen, never again!"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Any precaution, is little"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Too much sun, harms anyone"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Avoidance is the best medicine"
+      img: "products/logo_TKAPp.png"
     - <<: *theme_5
-      desc: ""
-      img: "app/travelers/viaj_5.png"
+      desc: "United family can wins"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Loving our grandparents"
+      img: "products/logo_TKAPp.png"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "How is your home like?"
+      img: "products/logo_TKAPp.png"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Helping is fun"
+      img: "products/logo_TKAPp.png"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Learning the cycle of life"
+      img: "products/logo_TKAPp.png"
+      img: "products/logo_TKAPp.png"
 
   
   travelers_persons:
     - img: "app/travelers/viaj_1.png"
       name: "Lucas"
-      desc: "Um garoto curioso, que não larga o seu skate, e adora viver grandes aventuras ao lado de seus amigos. Ama viajar econhecer novas culturas, histórias e hábitos. Tem uma atitude sempre otimista, e quase nada deixa ele de mau humor."
+      desc: "A curious kid, never lets his skate out of sight and loves to live big adventures alongside his friends. Loves to travel and discover new cultures, stories and habits. Always optimistic, and barely anything affects his good humour."
     - img: "app/travelers/viaj_2.png"
       name: "Igor"
-      desc: "Um menino amável, esperto, forte, ruivo e vive comendo qualquer coisa. O pai do Igor é padeiro e Igor aprendeu acozinhar com sua mãe que adora assistir programas de culinária."
+      desc: "A lovable boy, smart, strong, ginger and goes by eating anything. Igor’s father is a baker, and Igor learned how to cook with his mother, who loves cooking shows."
     - img: "app/travelers/viaj_3.png"
       name: "Julia"
-      desc: "A mais nova, timida e muito inteligente. Ela adora a natureza e tem uma conexão especial com bichinhos."
+      desc: "The youngest, shy and highly intelligent. She loves the nature and shares a special connection with the animals."
     - img: "app/travelers/viaj_4.png"
       name: "Léo"
-      desc: "Irmão gêmeo de Lia. Garoto muito esperto e que gosta de música. Vive grudado nos seus fones de ouvido."
+      desc: "Lia’s twin brother. Smart boy who likes music, his earphones are on at all times."
     - img: "app/travelers/viaj_5.png"
       name: "Lia"
-      desc: "Irmã gêmea de Léo, protetora, ela vive dançando e sonha em ser bailarina um dia. Léo e Lia são órfãos, e foram criadospela avó, com quem vivem."
+      desc: "Leo’s twin sister, a guardian that dances all the time, dreaming to be a ballerina one day. Leo and Lia are orphans who live with their grandmother, who raised them."
 
   kidsafe_title: "KidSafe"
   kidsafe_desc: "Timokids received an international seal of approval from the KidSAFE program, which is a certification service that approves projects exclusively designed for children."
@@ -557,9 +660,10 @@ en:
         - template: "right"
           img: "products/logo_TKAPp.png"
           paragraphs: 
-            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
-            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
-            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+            - Timokids, with its goal of driving positive social impact, wants to bring awareness to children and transform them into agents to combat the Aedes Aegypti, teaching them from an early age how to identify the breeding grounds and fight the mosquitos."
+            - 2,500 books were distributed with the story, Prevention is the Best Medicine, to children from the NGO Casa do Zezinho."
+            - The story teaches the children how to identify possible Aedes Aegypti breeding grounds as well as tips to eliminate mosquitos from their own home and how to prevent diseases such as Dengue and Zika Virus."
+            - It is important to use digital mediums to ensure that we have the greatest possible social impact."
         - template: "left"
           img: "products/logo_TKAPp.png"
           paragraphs: 
@@ -638,7 +742,7 @@ en:
       show_home: true
       has_detail: false
     - home_img: "home/campaings/campanha_zika.png"
-      title: "Zika Vírus"
+      title: "Zika Virus"
       home_desc: "Timokids, with its goal of driving positive social impact, wants to bring awareness to children and transform them into agents to combat the Aedes Aegypti, teaching them from an early age how to identify the breeding grounds and fight the mosquitos."
       button: "Know more"
       show_home: true

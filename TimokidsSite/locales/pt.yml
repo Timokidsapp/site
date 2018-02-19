@@ -1,15 +1,15 @@
 pt:
 # MENU
-  about_menu: "About"
-  our_team: "Our Team"
+  about_menu: "Sobre nós"
+  our_team: "Nosso time"
   blog: "Blog"
-  contact: "Contact Us"
-  subscribe_newsletter: "Subscribe"
+  contact: "Contato"
+  subscribe_newsletter: "Inscreva-se"
 
 # SOCIAL
-  fb_link: "https://www.facebook.com/Timokidsapp/"
-  insta_link: "https://www.instagram.com/timokidsglobal/"
-  twitter_link: "https://twitter.com/timokids"
+  fb_link: "https://www.facebook.com/TimoKidsBrasil/"
+  insta_link: "https://www.instagram.com/timokidsbr/"
+  twitter_link: "https://twitter.com/timokidsapp"
 
 # GAMES
   timo_app: "Timokids App"
@@ -18,62 +18,62 @@ pt:
   timo_games: "Timokids Games"
 
 
-  video_home_title: "We exist to help and educate children to face their emotional challenges."
-  video_home_dec: "Through the methodology of identification, translation, and adaptation to the childhood universe, we produce materials about complex themes important to children’s education. We provide access to this material through digital platforms that allow its conceptual approach to be followed and that provoke a change in behavior while driving positive social impact."
+  video_home_title: "Nós existimos para ajudar a educar as crianças para enfrentarem seus desafios emocionais."
+  video_home_dec: "Através de uma metodologia de identificação, tradução e adaptação para o universo infantil, produzimos material sobre temas complexos e importantes para formação da criança, e facilitamos o acesso a esse conteúdo através de plataformas digitais que permitem acompanhamento dos conceitos abordados e que provocam uma mudança de comportamento e um impacto social positivo."
 
 
-  prods_menu_title: "Products"
+  prods_menu_title: "Produtos"
   prods_menu:
     - img: "products/logo_TKAPp.png"
       title: "Timokids App"
-      desc: "Socio-educational stories and games, narrated and subtitled in four languages, with 3D illustrations."
+      desc: "Histórias e jogos socioeducativos, ilustrados em 3D, narrados e legendados em 4 idiomas."
       button: "Know more"
       link: "app.html"
     - img: "products/logo_TKSchool.png"
       title: "Timokids School"
-      desc: "Module with real time updates developed to be used inside schools or events."
+      desc: "Módulo desenvolvido para ser utilizado dentro de escolas ou em eventos que possui relatórios em tempo real."
       button: "Know more"
       link: "school.html"
     - img: "products/TimokidsSocial.png"
       title: "Timokids Social"
-      desc: "Educational content that can be distributed in promotional campaigns and on social media. Learn about us today!"
+      desc: "Conteúdos educativos que podem ser distribuídos em ações promocionais e campanha sociais. Conheçam nossos formatos."
       button: "Know more"
       link: "social.html"
     - img: "products/logo_TKGames.png"
       title: "Timokids Games"
-      desc: "Entertainment application to develop motor skills and logical reasoning for children."
+      desc: "Aplicativo de entretenimento para desenvolver habilidades motoras e raciocínio lógico das crianças."
       button: "Know more"
       link: "games.html"
     
 
-  numbers_home_title: "Numbers"
+  numbers_home_title: "Números"
   numbers_home:
     - img: "numbers3.png"
       title: "+190"
-      desc: "Countries"
+      desc: "Países"
     - img: "numbers1.png"
       title: "+2,000"
-      desc: "Students using the Timokids Platform"
+      desc: "Alunos usando a plataforma Timokids"
     - img: "numbers2.png"
       title: "+150,000"
       desc: "Downloads"
     - img: "numbers4.png"
       title: "+250,000"
-      desc: "Followers on social media"
+      desc: "Seguidores nas mídias sociais"
 
-  campaings_home_title: "Campaigns"
+  campaings_home_title: "Campanhas"
   campaings:
     - img: "home/campaings/fotomini_Aedes1.png"
-      title: "Goodbye Aedes"
-      desc: "2,500 books were distributed with the story, Prevention is the best Medicine, to the children of the NGO Casa do Zezinho."
+      title: "Tchau Aedes!"
+      desc: "Nesta ação foram distribuídos 2.500 livros com a história, Prevenir é o Melhor Remédio, para as crianças da ONG Casa do Zézinho."
       button: "Know more"
     - img: "home/campaings/campanha_aracoiaba.png"
       title: "Araçoiaba da Serra"
-      desc: "Project Citizenship, with the City of Araçoiaba da Serra, delivered more than two thousand books to children from the entire town and was attended by Mayor Mara Melo.  The same story is also available for free digitally to anyone who owns the Timokids application on a smartphone or tablet."
+      desc: "Projeto Cidadania com a Prefeitura Municipal de Araçoiaba da Serra, entregou mais de dois mil livros impressos para crianças de toda a cidade e ainda contou com a presença da Prefeita Mara Melo."
       button: "Know more"
     - img: "home/campaings/campanha_zika.png"
       title: "Zika Vírus"
-      desc: "Timokids, with its goal of driving positive social impact, wants to bring awareness to children and transform them into agents to combat the Aedes Aegypti, teaching them from an early age how to identify the breeding grounds and fight the mosquitos."
+      desc: "Timokids, com seu objetivo de causar impacto social positivo, quer conscientizar as crianças e transformá-las em agentes de combate ao Aedes Aegypti, ensinando desde cedo como identificar criadouros e combater o mosquito."
       button: "Know more"
 
   blog_home_title: "Blog"
@@ -94,7 +94,7 @@ pt:
       button: "Know more"
       link: "https://www.timokids.com.br/en/how-to-teach-children-what-is-right/"
 
-  social_home_title: "Follow Us"
+  social_home_title: "Conecte-se"
   social_items: 
     - img: "ico_Face.png"
       title: "+242,000"
@@ -102,11 +102,11 @@ pt:
       link: "https://www.facebook.com/Timokidsapp/"
     - img: "ico_Insta.png"
       title: "+6,000"
-      desc: "Followers"
+      desc: "Seguidores"
       link: "https://www.instagram.com/timokidsglobal/"
     - img: "ico_Twitter.png"
       title: "+357"
-      desc: "Followers"
+      desc: "Seguidores"
       link: "https://twitter.com/timokids"
 
   depoiments_home_title: "Depoimentos"
@@ -129,7 +129,7 @@ pt:
       depoiment: "Nesta ação foram distribuídos 2.500 livros com a história. Previnir é o maior remédio para crianças da ONG Casa de Zezinho."
 
 
-  imp_home_title: "Media"
+  imp_home_title: "Assessoria de Imprensa"
   imp_items:
     - img: "assessoria/assessoria1.png"
       title: "TimoKids: An App to Teach Children Life’s Most Important Lessons"
@@ -148,241 +148,244 @@ pt:
       link: "https://lavca.org/2017/07/13/parallel18-ventures-invests-brandsof-timokids-better-hotels-expand-throughout-puerto-rico-en-espanol/"
     
 #ABOUT
-  what_title: "What we do"
-  what_desc: "We offer learning and content solutions relevant to the education of children, in a safe and positive manner and in a format that allows them to be impacted inside or outside the home or school. With this we help families, teachers, and organizations and stimulate the development of children with the goal of raising responsible adults."
+  what_title: "O que fazemos"
+  what_desc: "Oferecemos soluções para aprendizado de conteúdos relevantes para formação da criança, de uma maneira segura e positiva e em formatos que permitem que ela seja impactada dentro de casa ou na escola. Com isso auxiliamos famílias, professores e organizações, a estimular o  desenvolvimento infantil com o objetivo de formar adultos responsáveis."
 
-  approach_title: "Approach"
-  approach_subtitle: "Timokids is a socio-educational content factory that can be distributed in various media formats."
-  approach_desc: "We have created a way to approach children in a children’s world. It’s fun and interactive and our concern is to teach, guide, and educate using socio-educative technology as an ally in the education of children."
+  approach_title: "Abordagem"
+  approach_subtitle: "Timokids é uma fábrica de conteúdos socioeducativos que podem ser distribuídos em vários formatos de mídia."
+  approach_desc: "Criamos uma forma de abordar as crianças no universo infantil, de uma maneira, interativa e divertida e temos a preocupação de prevenir, orientar e educar utilizando a tecnologia e conteúdos socioeducativos como um aliado no aprendizado da criança."
 
   objectives:
-    - title: "Warning and Guidance"
-      desc: "Our goal is to address the relevant themes that serve to inform and guide children in their day-to-day lives."
-    - title: "Technology in Education"
-      desc: "Our technological platform has the potential to promote equity and quality of education, while also bringing parents and school closer to children’s lives."
-    - title: "Security"
-      desc: "Our technology ensures there are no external links or purchasing options for children within the application."
-    - title: "Social Impact"
-      desc: "We worry about the emotional health of children as well so through our methodology we focus on childhood problems that can last throughout one’s life, thereby transforming the behavior of society one child at a time."
+    - title: "Prevenção e Orientação"
+      desc: "Nosso objetivo é tratar de temas relevantes que sirvam para prevenir e orientar as crianças no seu dia a dia."
+    - title: "Tecnologia na educação"
+      desc: "Nossa plataforma tecnológica têm potencial para promover a equidade e qualidade na educação, além de aproximar a escola e os pais do universo infantil."
+    - title: "Segurança"
+      desc: "Nossa tecnologia garante que não existem links externos e opções de compras para crianças dentro do aplicativo."
+    - title: "Impacto Social"
+      desc: "Nos preocupamos com a prevenção emocional da criança, prevenimos problemas da infância que podem impactar toda a sua vida e criamos experiências através da nossa metodologia de ensino para transformar o comportamento da sociedade."
   
   
-  objective_title: "Objective"
-  objective_desc: "Promote the learning process and prepare children to face the challenges of life."
+  objective_title: "Objetivo"
+  objective_desc: "Promover o aprendizado e preparar a criança para enfrentar os desafios da vida."
 
-  vision_title: "Vision"
-  vision_desc: "We create global social changes for children and family through an evidence based teaching methodology for life."
+  vision_title: "Visão"
+  vision_desc: "Criamos mudanças sociais globais para crianças e famílias através de uma metodologia de ensino baseada em evidências de educação para a vida."
   
 
 
 # SCHOOL
 
   school_title: "TIMOKIDS SCHOOL"
-  school_desc: "Timokids School is a package developed to be used inside schools and includes:"
+  school_desc: "Timokids School é um módulo desenvolvido para ser utilizado dentro de escolas e inclui:"
   school_items:
-    - "Digital Libraries."
-    - "Quizzes."
-    - "Reports to help teachers and parents   measure the progress of the students."
+    - "Biblioteca Digital"
+    - "Quiz"
+    - "Relatórios de acompanhamento para auxiliar o professor a  medir o resultado dos alunos"
 
-  school_dash_title: "DASHBOARD"
-  school_dash_desc: "In addition to high quality relevant educational children’s content, we also provide reports making it possible to qualitatively and quantitatively analyze student results and identify who, how, and why students need orientation, guidance, and improvement."
+  school_dash_title: "Dashboard"
+  school_dash_desc: "Além de um conteúdo de alta qualidade e relevância na formação da criança, através do relatório de acompanhamento é possível fazer análises quantitativas e qualitativas dos resultados dos alunos e identificar necessidades individuais de aprimoramento para prevenir e orientar a criança."
 
 
-  school_history_title: "STORIES AND EXCLUSIVE GAMES"
-  school_history_desc: "We can use the methodology to create content from the stories and children’s games while working together with teachers, which address issues important to student growth and are important to the institution."
+  school_history_title: "Histórias e Jogos Exclusivos"
+  school_history_desc: "Podemos utilizar a metodologia para criar conteúdos de histórias e jogos infantis trabalhados junto com os professores, que abordam assuntos importantes para o crescimento do alunos e que está relacionado ao interesse da instituição."
 
-  school_history_books_title: "BOOK PUBLISHER"
+  school_history_books_title: "Impressão de Livros"
   school_history_books_paragrphs: 
-    - "Timokids content can be distributed offline, through books and activity packets, that can be used at home or as complementary material in the classroom."
+    - "Os conteúdos do Timokids podem ser distribuídos off line, através de livros e cadernos de atividades, que podem ser utilizados em casa ou como material complementar em sala de aula."
+    - "Esse formato facilita o acesso a quem não tem um smartphone ou tablet disponível."
 
 
 
 # SOCIAL
   social_start_title: "Timokids Social"
   social_start_tparagrphs: 
-    - "Timokids partners with companies, NGOs and government entities to distribute educational and social campaigns or promotional activities to facilitate access to relevant content for children that are aligned with the partner's goal."
-    - "With your help we can bring Timokids educational content to more children! Know our formats:"
+    - "Timokids realiza parcerias com empresas, ONGs e entidades governamentais para distribuir em campanhas de ensino e sociais ou ações promocionais, que visam facilitar o acesso a conteúdos relevantes para crianças que estejam alinhados ao objetivo do parceiro."
+    - "Com sua ajuda podemos levar conteúdo educativo do Timokids para mais crianças! Conheça nossos formatos:"
   
 
-  social_history_title: "Stories and Sponsored Games"
-  social_history_desc:  "We can use our methodology to create content from stories and childrens games, developed with specialists, that address issues important to children’s growth and that are related to the partner’s interests."
+  social_history_title: "Histórias e Jogos Patrocinados"
+  social_history_desc:  "Podemos com nossa metodologia criar conteúdos de histórias e jogos infantis, desenvolvidos junto com profissionais especializados no tema, que abordam assuntos importantes para o crescimento das crianças e que está relacionado ao interesse do parceiro."
 
-  social_events_title: "Events and Activities in Sponsored Schools"
-  social_events_desc:  "We prepare events and activities to guarantee the best results of the developed material."
+  social_events_title: "Eventos e Atividades em Escolas Patrocinados"
+  social_events_desc:  "Elaboramos de acordo com a necessidade do parceiro eventos e atividades para garantir o melhor resultado na entrega do material desenvolvido."
 
-  social_promoctions_title: "Promotional Coupon"
+  social_promoctions_title: "Cupons Promocionais"
   social_promoctions_paragraphs:
-    - "Offer free access to the Timokids educational stories."
-    - "The coupons can be printed, sent by email, or given out on social media."
-    - "If you have a promotional coupon, click on the button to the side."
+    - "Oferece acesso gratuito as histórias educativas do Timokids."
+    - "Os cupons podem ser impressos, enviados via email ou divulgado através das redes sociais."
+    - "Se você tiver um cupom promocional clique no botão ao lado."
 
   social_white_title: "White Label"
-  social_white_sub: "A 100% customizable Timokids for your business."
-  social_white_desc: "Use Timokids technology with the your business’ color and information."
+  social_white_sub: "Um Timokids 100% customizado para seu negócio."
+  social_white_desc: "Use a tecnologia Timokids com as cores e informações da sua empresa."
 
-  social_books_title: "Book Publishing"
-  social_books_sub: "Choose any story and we’ll publish it for you."
-  social_books_desc: "Perform promotional campaigns or social activities in your community with your business."
+  social_books_title: "Livros Impressos"
+  social_books_sub: "Escolha quais histórias e nós cuidamos da impressão dos livros Timokids."
+  social_books_desc: "Realize campanhas promocionais ou ações sociais em comunidade assistidas pela sua empresa."
 
 
-  social_investment_title: "Why invest in children’s content?"
+  social_investment_title: "Por que Investir em Conteúdo para Crianças?"
   social_investment_tparagrphs: 
-    - "Psychological and Social development education is everyone’s concern."
-    - "When you educate a child, you impact three generations: the student, the parents, and eventually the student’s children."
-    - "By preparing and guiding a child you will help her become ready for the future, avoiding problems that can affect her whole family and the community."
-    - "Brands and companies always benefit when the public views them as being involved and collaborating with positive social impact."
+    - "A formação psicossocial da criança é uma preocupação e responsabilidade de toda sociedade."
+    - "Ao educar uma criança você impacta três gerações, a dela, a dos pais e a forma como a próxima geração será educada."
+    - "Ao prevenir e orientar uma criança você estará colaborando para que ela esteja mais preparada para o futuro, evitando problemas que podem afetar toda sua família e a comunidade."
+    - "Existe maior empatia por empresas que se envolvem e colaboram com temas sociais."
 
 # GAMES
   games_intro_title: "Games"
-  games_intro_desc: "Timokids Games, offers games that encourage creativity and support the development of children."
+  games_intro_desc: "Timokids Games, ​oferece jogos ​que​ incentivam a criatividade e ​apoiam ​o desenvolvimento​ ​das ​crianças."
   games_intro_paragrphs:
-    - "+20 games fun games for children"
-    - "Our vibrant games come in an entertaining App to develop skills with benefits to children such as:"
+    - "+ De 20 Jogos​ ​Divertidos para​ ​Crianças​​"
+    - "Nossos jogos são vibrantes ​e um App de entretenimento para desenvolver habilidades e com benefícios para crianças como:"
 
 
   games_features_paragrphs:
-    - title: "Motor Skill Coordination"
-      desc: "Timokids games improve coordination, development, and the capacity to move quickly and delicately, while at the same time improving hand-eye coordination, since the player receives stimuli visually and responds manually to the application."
-    - title: "Reasoning"
-      desc: "Timokids Games have games that train the brain to think quickly and deal with problems in the moment, leading to the capacity to make quick decisions in all parts of life. The games are also a great training for vision and motor reflexes while still being interesting, fun, and creative."
-    - title: "Vision"
-      desc: "It is necessary to have attentive eyes to follow everything that happens on the screen with Timokids Games. Our game are excellent stimuli to boost vision skills and will also train the brain to pay attention to different events at the same time."
+    - title: "Coordenação Motora"
+      desc: "Mais que diversão, os jogos do Timokids Games melhoram a coordenação, desenvolvendo a capacidade de movimentos delicados e sensíveis, ao mesmo tempo em que aumenta a coordenação entre o olho e a mão, uma vez que o jogador recebe os estímulos visualmente na tela e responde-os manualmente no aplicativo."
+    - title: "Raciocínio"
+      desc: "Timokids Games tem jogos que treinam o cérebro para pensar rápido e lidar com adversidades instantâneas, levando a capacidade de tomada rápida de decisões para todos os âmbitos de sua vida. Além disso, os jogos também são um ótimo treino de reflexo visual e motor – e, de brinde, ainda são um super incentivo à criatividade."
+    - title: "Visão"
+      desc: "É preciso ter olhos atentos para acompanhar tudo o que acontece na telinha do Timokids Games. Os jogos são ótimos estímulos para aguçar a visão e potencializar a capacidade cerebral de prestar atenção em vários eventos ao mesmo tempo."
 
 
 
-  games_all_title: "Games"
+  games_all_title: "Jogos"
   games_all:
     - img: "games/coloring.png"
-      title: "Coloring"
-      desc: "Game to paint and color the Timokids characters"
+      title: "Vamos colorir"
+      desc: "Jogo de pintar e colorir os personagens do Timokids."
       link: ""
     - img: "games/memory.png"
-      title: "Memory"
-      desc: "Make pairs using concentration and memory"
+      title: "Jogo da Memória"
+      desc: "Forme pares usando a concentração e memória."
       link: ""
     - img: "games/tictactoe.png"
-      title: "Tic-Tac-Toe"
-      desc: "Use your reasoning on this classic game"
+      title: "Jogo da Velha"
+      desc: "Use seu raciocínio para esse jogo clássico!"
       link: ""
     - img: "games/piano.png"
       title: "Piano"
-      desc: "In this game, you need to be quick and click the keys to play a song from beginning to end"
+      desc: "Seja rápido e clique nas teclas para tocar a musiquinha do início ao fim."
       link: ""
     - img: "games/puzzle.png"
-      title: "Jigsaw Puzzle "
-      desc: "Choose from Timokids pictures and put together pieces to solve the puzzle"
+      title: "Quebra Cabeça"
+      desc: "Escolha as imagens do Timokids e junte as peças para solucionar o quebra-cabeça."
       link: ""
     - img: "games/findmistakes.png"
-      title: "Find the Mistakes"
-      desc: "Pay close attention and find the seven differences between the two pictures"
+      title: "Jogo dos 7 Erros"
+      desc: "Preste atenção e encontre as sete diferenças entre as duas imagens."
       link: ""
     - img: "games/roghtchoice.png"
-      title: "Right Choice"
-      desc: "Educational game for children using numbers"
+      title: "Escolha Certa!"
+      desc: "Jogo educativo para crianças, usando os números."
       link: ""
     - img: "games/side.png"
-      title: "Side by side"
-      desc: "Develop agility to choose the right side of the picture"
+      title: "Lado a Lado"
+      desc: "Desenvolve agilidade ao escolher o lado certo da imagem."
       link: ""
     - img: "games/add.png"
-      title: "Add it up"
-      desc: "Adding game, become a master of math!"
+      title: "Some Some"
+      desc: "Jogo de somar, fique craque em matemática!"
       link: ""
     - img: "games/booj_hunt.png"
-      title: "Book hunt"
-      desc: "Develops sense education by challenging children to find the book"
+      title: "Caça ao Livro"
+      desc: "Desenvolve a educação dos sentidos e o desafio é encontrar o livro."
       link: ""
     - img: "games/colors_and_shape.png"
-      title: "Colors and Shapes"
-      desc: "Drag and drop colors and shapes into the drawings"
+      title: "Cores e Formas"
+      desc: "Arraste e solte as formas coloridas no desenho indicado."
       link: ""
     - img: "games/happyface.png"
-      title: "Happy Face"
-      desc: "Choose the happy face from among the characters and win points!"
+      title: "Rosto Feliz"
+      desc: "Selecione o rosto feliz dos nossos personagens e ganhe pontos!"
       link: ""
     - img: "games/word_hunt.png"
-      title: "Word Hunt"
-      desc: "The goal of this game is to find words in the middle of a jumble of letters."
+      title: "Caça Palavras"
+      desc: "O objetivo deste passatempo é encontrar palavras em meio a um emaranhado de letras."
       link: ""
     - img: "games/bomb_hop.png"
-      title: "Bomb hop"
-      desc: "Good luck jumping the field that doesn’t have a bomb"
+      title: "Pula Bomba"
+      desc: "Tenha sorte e pule o campo que não tenha uma bomba."
       link: ""
     - img: "games/connecttheletters.png"
-      title: "Connect the letters"
-      desc: "This game is to learn writing, while a child learns literacy"
+      title: "Qual a Letra"
+      desc: "Este jogo favorece a escrita, durante a fase de alfabetização."
       link: ""
     - img: "games/outline.png"
-      title: "Outline"
-      desc: "Outline the vowels and introduce the letters to children"
+      title: "Liga Letra!"
+      desc: "Liga Letra irá desafiar as habilidades das crianças com o alfabeto."
       link: ""
     - img: "games/guess.png"
-      title: "Guess the house"
-      desc: " Discover which house is the fish’s and win points"
+      title: "Contorne"
+      desc: "Contorne as vogais é uma introdução ao alfabeto para crianças."
       link: ""
     - img: "games/inthebasket.png"
-      title: "In the Basket"
-      desc: "Score points by placing vegetables in the correct basket"
+      title: "Qual a casa?"
+      desc: "Descubra qual a casa do peixinho e do passarinho e ganhe tempo!"
+      link: ""
+    - img: "games/tangram.png"
+      title: "Na Cesta!"
+      desc: "Marque pontos em colocar os legumes na cesta certa!"
       link: ""
     - img: "games/tangram.png"
       title: "Tangram"
-      desc: "Chinse jigsaw puzzle, set up the picture in whatever way seems best to you"
+      desc: "Quebra-cabeça chinês, monte o desenho conforme sua intuição."
       link: ""
+
     
 
 # CONTACT
-  contact_title: "Contact"
-  contact_desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
-  contact_name: "Name"
+  contact_title: "Contato"
+  contact_desc: "Dúvidas ou sugestões? Preencha o formulário ao lado e compartilhe com nós!"
+  contact_name: "Nome"
   contact_email: "E-mail"
-  contact_message: "Message"
-  contact_send: "Send"
+  contact_message: "Mensagem"
+  contact_send: "Enviar"
 
 # TEAM
 
-  team_title: "Our team"
+  team_title: "Nosso time"
   team_persons:
-    - name: "teste"
+    - name: "Fabiany Lima"
       office: "CEO"
-      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+      desc: "ESCREVER.... "
       img: "products/logo_TKAPp.png"
-    - name: "teste"
-      office: "CEO"
-      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+    - name: "Vinicius Limas"
+      office: "CTO"
+      desc: "ESCREVER..."
       img: "products/logo_TKAPp.png"
-    - name: "teste"
-      office: "CEO"
-      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
+    - name: "Maritza Arroyo"
+      office: "CBO"
+      desc: "ESCREVER...."
       img: "products/logo_TKAPp.png"
-    - name: "teste"
-      office: "CEO"
-      desc: "aisdqi doiqj udhixu qidw iq hdiqiu dqiuw hdiuq hiqwi diqh iuqdwi iqwd q"
-      img: "products/logo_TKAPp.png"
+   
 
 
   # APP
   app_title: "TIMOKIDS APP"
-  app_desc: "Timokids is an application for Smartphones and Tablets that brings children and families stories and socio-educational games, illustrated in 3D, narrated and subtitled in several languages."
+  app_desc: "Timokids é um aplicativo para Smartphones e Tablets que leva, para crianças e famílias histórias e jogos socioeducativos, ilustrados em 3D, narrados e legendados em diversos idiomas."
   app_paragraphs: 
-    - "+ DE 50 Stories help parents talk to their children about issues that are essential to their growth, such as bullying, socializing, prejudice, health, and many others."
-    - "Timokids is an app for children that uses technology in a positive and healthy way in families."
-    - "Our vertical development themes are:"
+    - "+ DE 50 Histórias que ajudam os pais a conversarem com os seus filhos sobre temas essenciais para seu crescimento, como bullying, convívio social, preconceitos, saúde e muitos outros."
+    - "O Timokids é um app para crianças, que usa a tecnologia de uma forma positiva e saudável nas famílias."
+    - "Nossas verticais de desenvolvimento de temas são:"
 
 
   theme_1: &theme_1
     color: "#000000"
-    name: "Social Behavior"
+    name: "Comportamento Social"
   theme_2: &theme_2
     color: "#0000FF"
-    name: "Education and Sports"
+    name: "Educação e Esportes"
   theme_3: &theme_3
     color: "#00FF00"
-    name: "Citizenship and Sustainability"
+    name: "Cidadania e Sustentabilidade"
   theme_4: &theme_4
     color: "#FF0000"
-    name: "Health and safety"
+    name: "Saúde e Segurança"
   theme_5: &theme_5
     color: "#7FFFD4"
-    name: "Childhood day-to-day"
+    name: "Dia a dia da Criança"
   
 
     
@@ -395,43 +398,93 @@ pt:
 
   timolico_title: "Turma do Timolico"
 
-  timolico_tab_1: "Hitories"
-  timolico_tab_2: "Persons"
+  timolico_tab_1: "Histórias"
+  timolico_tab_2: "Personagens"
 
   timolico_hitories: 
     - <<: *theme_1
-      desc: ""
+      desc: "Feliz aniversário Timolico"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "O importante é participar"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "Beleza nas diferenças"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "As palavrinhas mágicas"
       img: "products/logo_TKAPp.png"
     - <<: *theme_2
-      desc: ""
+      desc: "Primeiro dia de escola"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Cadê meu carrinho?"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Ler é muito divertido"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Hora de aprender, hora de brincar"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Xô preguiça!"
       img: "products/logo_TKAPp.png"
     - <<: *theme_3
-      desc: ""
+      desc: "Ajudando o planeta azul"
       img: "products/logo_TKAPp.png"
     - <<: *theme_4
-      desc: ""
+      desc: "Não posso comer"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Hora de dormir é pra descansar"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Alimentação balanceada faz bem!"
       img: "products/logo_TKAPp.png"
     - <<: *theme_5
-      desc: ""
+      desc: "Uma lição de vida"
       img: "products/logo_TKAPp.png"
-
+    - <<: *theme_5
+      desc: "Esse amigo é meu"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Brincadeira de irmãos"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Meu novo irmão"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Uma lição cinco estrelas"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Aprendendo a dividir"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Mentira tem perna curta"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "O medo que mora no escuro do quarto"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Cheirinho de banho é bom!"
+      img: "products/logo_TKAPp.png"
   
   timolico_persons:
     - img: "products/logo_TKAPp.png"
       name: "Enzo"
-      desc: "Enzo the ferret is very smart and playful. He is very funny and always has a joke ready for any situation."
+      desc: "Enzo é muito esperto, brincalhão e bem humorado. Adora se divertir com seus amigos e quando o assunto é brincadeira, é sempre o primeiro a se apresentar."
     - img: "products/logo_TKAPp.png"
       name: "Timolico"
-      desc: "A very kind and optimistic chinchilla who always tries to see the best in people.  He is always willing to help his friends."
+      desc: "É uma chinchila muito simpática e sonhadora, que sempre tenta ver o melhor nas pessoas. Querido por todos, está sempre disposto a ajudar seus amigos, não importa qual seja o problema."
     - img: "products/logo_TKAPp.png"
       name: "Kyra"
-      desc: "A very beautiful but vain cockatiel. She is always worried about her appearance and carries her make-up and mirror with her wherever she goes."
+      desc: "Uma calopsita muito bonita e vaidosa. Carrega sua maquiagem e seu espelho para onde quer que vá. Apesar de às vezes parecer estar preocupada apenas consigo mesma, Kyra tem um grande espírito de equipe."
     - img: "products/logo_TKAPp.png"
       name: "Artur"
-      desc: "Despite being the youngest of the group, Artur the snail is very mature and is the best student of them all."
+      desc: "O mais novinho da turma é muito maduro e esperto. Sempre estudioso e em seu tempo livre, videogames e filmes de ficção são seus passatempos preferidos."
     - img: "products/logo_TKAPp.png"
       name: "Marta"
-      desc: "Quieter and less playful than the others, Marta the iguana is ready to give advice to her friends when they need it and is the most caring of the group."
+      desc: "A iguana Marta está sempre dando conselhos para seus amigos e é a mais cuidadosa da turma. Mas seus amigos sabem que por trás daquela aparência séria, existe uma amiga de verdade que estará sempre lá para divertir e ajudar seus amigos."
     - img: "products/logo_TKAPp.png"
       name: "Dona Telma"
       desc: "Mãe e protetora de seus filhos Timolico e Ivo, ela é famosa por ser uma ótima cozinheira e sempreconvida a turma para provar seus doces e guloseimas. Sempre aconselha e ajuda seus filhos, masquando aprontam, não hesita em dar um puxão de orelha."
@@ -445,26 +498,98 @@ pt:
 
 
 
-  travelers_title: "Travelers"
+  travelers_title: "Turma dos Viajantes"
 
-  travelers_tab_1: "Hitories"
-  travelers_tab_2: "Persons"
+  travelers_tab_1: "Histórias"
+  travelers_tab_2: "Personagens"
 
   travelers_hitories: 
     - <<: *theme_1
-      desc: ""
+      desc: "Tudo o que eu quero é respeito"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "Meninas também sabem jogar"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "Juntos é mais legal"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "Tudo ao seu tempo"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_1
+      desc: "O elogio que incomoda"
       img: "products/logo_TKAPp.png"
     - <<: *theme_2
-      desc: ""
+      desc: "Meus pais na escola"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Estudar para crescer"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_2
+      desc: "Respeito ao professor"
       img: "products/logo_TKAPp.png"
     - <<: *theme_3
-      desc: ""
+      desc: "Pequenos atos, grandes atitudes"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "Fazendo a minha parte"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "Nosso amigo bicho"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "Um futuro justo"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "Brincando de reciclar"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "É dia da criança"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_3
+      desc: "Cuidando dos bens públicos"
       img: "products/logo_TKAPp.png"
     - <<: *theme_4
-      desc: ""
+      desc: "Diga não ao cigarro"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "De olho nas mensagens"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Um trânsito consciente e tranquilo"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Conservação dos alimentos"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Oi vacina, tchau doença!"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Brincar na cozinha, nunca mais!"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Qualquer cuidado é pouco"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Sol demais, faz mal!"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_4
+      desc: "Prevenir é o melhor remédio"
       img: "products/logo_TKAPp.png"
     - <<: *theme_5
-      desc: ""
+      desc: "Família unida pode vencer"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Amor aos avós"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Como é na sua casa?"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "judar também é divertido"
+      img: "products/logo_TKAPp.png"
+    - <<: *theme_5
+      desc: "Descobrindo o ciclo da vida"
       img: "products/logo_TKAPp.png"
 
   
@@ -486,15 +611,15 @@ pt:
       desc: "Irmã gêmea de Léo, protetora, ela vive dançando e sonha em ser bailarina um dia. Léo e Lia são órfãos, e foram criadospela avó, com quem vivem."
 
   kidsafe_title: "KidSafe"
-  kidsafe_desc: "Timokids received an international seal of approval from the KidSAFE program, which is a certification service that approves projects exclusively designed for children."
-  kidsafe_more_info: "Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+  kidsafe_desc: "Timokids recebeu um selo internacional do programa KidSAFE Seal, que é um serviço de certificação e aprovação projetado exclusivamente para sites e tecnologias para crianças."
+  kidsafe_more_info: "Timokids tem a preocupação com a segurança e qualidade de conteúdo, que passa na nossa plataforma por uma curadoria com pedagogo e psicólogo sendo um aplicativo 100% seguro e saudável para as crianças."
 
 
   #CAMPANHA 1    
   campaings:
-    - title: "Goodbye Aedes"
+    - title: "Campanha Tchau Aedes!"
       home_img: "home/campaings/fotomini_Aedes1.png"
-      home_desc: "2,500 books were distributed with the story, Prevention is the best Medicine, to the children of the NGO Casa do Zezinho."
+      home_desc: "Nesta ação foram distribuídos 2.500 livros com a história, Prevenir é o Melhor Remédio, para as crianças da ONG Casa do Zézinho."
       button: "Know more"
       show_home: true
       has_detail: true
@@ -502,9 +627,10 @@ pt:
         - template: "right"
           img: "products/logo_TKAPp.png"
           paragraphs: 
-            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
-            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
-            - Timokids is also very concerned with the quality of our content.   Everything that passes on our platforms is scrutinized by a pedagogical and psychological curator thereby ensuring that 100% of our content is safe and healthy for children."
+            - Timokids, com seu objetivo de causar impacto social positivo, quer conscientizar as crianças e transformá-las em agentes de combate ao Aedes Aegypti, ensinando desde cedo como identificar criadouros e combater o mosquito."
+            - Nesta ação foram distribuídos 2.500 livros com a história, Prevenir é o Melhor Remédio, para as crianças da ONG Casa do Zézinho."
+            - A história ensina as crianças como identificar possíveis criadouros do Aedes Aegypti, boas práticas para evitar ambientes propícios para o mosquito e como se prevenir das doenças como Dengue e Zika Vírus."
+            - É importante usarmos o meio digital para levar conteúdos que causam impacto social positivo para mais pessoas."
         - template: "left"
           img: "products/logo_TKAPp.png"
           paragraphs: 
@@ -578,13 +704,13 @@ pt:
         - "products/logo_TKAPp.png"
     - home_img: "home/campaings/campanha_aracoiaba.png"
       title: "Araçoiaba da Serra"
-      home_desc: "Project Citizenship, with the City of Araçoiaba da Serra, delivered more than two thousand books to children from the entire town and was attended by Mayor Mara Melo.  The same story is also available for free digitally to anyone who owns the Timokids application on a smartphone or tablet."
+      home_desc: "Projeto Cidadania com a Prefeitura Municipal de Araçoiaba da Serra, entregou mais de dois mil livros impressos para crianças de toda a cidade e ainda contou com a presença da Prefeita Mara Melo."
       button: "Know more"
       show_home: true
       has_detail: false
     - home_img: "home/campaings/campanha_zika.png"
       title: "Zika Vírus"
-      home_desc: "Timokids, with its goal of driving positive social impact, wants to bring awareness to children and transform them into agents to combat the Aedes Aegypti, teaching them from an early age how to identify the breeding grounds and fight the mosquitos."
+      home_desc: "Timokids, com seu objetivo de causar impacto social positivo, quer conscientizar as crianças e transformá-las em agentes de combate ao Aedes Aegypti, ensinando desde cedo como identificar criadouros e combater o mosquito."
       button: "Know more"
       show_home: true
       has_detail: false

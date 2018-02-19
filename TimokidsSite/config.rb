@@ -111,7 +111,7 @@ end
 # end
 
 configure :build do
-  set :http_prefix, "novosite"
+  set :http_prefix, "/novosite"
   activate :asset_host, :host => 'https://www.timokids.com.br/novosite/'
   activate :minify_css
   activate :minify_javascript
