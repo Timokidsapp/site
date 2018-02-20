@@ -343,6 +343,8 @@ pt:
   contact_email: "E-mail"
   contact_message: "Mensagem"
   contact_send: "Enviar"
+  contact_succes: "Enviada!"
+  contact_error: "Erro ao enviar!"
 
 # TEAM
 

@@ -15,7 +15,8 @@ title:
   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
   crossorigin="anonymous"></script>
-
+  <script src="https://smtpjs.com/v2/smtp.js">
+  </script>
 <script>
 $(document).ready(function(){
     $(".menu-left").click(function() {
@@ -27,5 +28,35 @@ $(document).ready(function(){
           $("#menu-top").toggleClass( "active" );
           $(this).toggleClass( "is-active" );
     });
+    $("#send-button").click(function() {
+        var email = $("#form-email").val();
+        var name = $("#form-name").val();
+        var msg = $("#form-msg").val();
+
+        if (name != "" && email != "" && validateEmail(email) && msg != "") {
+            Email.send("contato@timokids.com.br",
+                "contato@timokids.com.br",
+                "Contato",
+                "nome: "+ name +" <br /> email: "+ email +" <br /> mensagem: "+ msg +" <br />",
+                {token : "841d4a9a-dde1-4e61-80a8-c44d8eba9d7d",
+                callback: function done(message) { 
+                    alert("<%= t(:contact_succes) %>");
+                    $("#form-email").val("");
+                    $("#form-name").val("");
+                    $("#form-msg").val(""); 
+                    }
+                });
+            
+        } else {
+            alert("<%= t(:contact_error) %>");
+        }
+    });
+    
+
+
+        function validateEmail(email) {
+            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        }
 });
 </script>

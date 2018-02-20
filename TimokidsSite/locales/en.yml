@@ -369,7 +369,8 @@ en:
   contact_email: "E-mail"
   contact_message: "Message"
   contact_send: "Send"
-
+  contact_succes: "Enviada!"
+  contact_error: "Erro ao enviar!"
 # TEAM
 
   team_title: "Our team"
