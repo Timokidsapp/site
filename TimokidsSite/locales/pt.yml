@@ -373,19 +373,19 @@ pt:
 
 
   theme_1: &theme_1
-    color: "#000000"
+    color: "#c3b66e"
     name: "Comportamento Social"
   theme_2: &theme_2
-    color: "#0000FF"
+    color: "#6aaa85"
     name: "Educação e Esportes"
   theme_3: &theme_3
-    color: "#00FF00"
+    color: "#b66161"
     name: "Cidadania e Sustentabilidade"
   theme_4: &theme_4
-    color: "#FF0000"
+    color: "#b37eb6"
     name: "Saúde e Segurança"
   theme_5: &theme_5
-    color: "#7FFFD4"
+    color: "#bebfc0"
     name: "Dia a dia da Criança"
   
 

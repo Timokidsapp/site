@@ -398,19 +398,19 @@ en:
 
 
   theme_1: &theme_1
-    color: "#000000"
+    color: "#c3b66e"
     name: "Social Behavior"
   theme_2: &theme_2
-    color: "#0000FF"
+    color: "#6aaa85"
     name: "Education and Sports"
   theme_3: &theme_3
-    color: "#00FF00"
+    color: "#b66161"
     name: "Citizenship and Sustainability"
   theme_4: &theme_4
-    color: "#FF0000"
+    color: "#b37eb6"
     name: "Health and Security"
   theme_5: &theme_5
-    color: "#7FFFD4"
+    color: "#bebfc0"
     name: "Child’s Daily Life"
   
 
