@@ -66,7 +66,7 @@ helpers do
   end
 
   def root_url() 
-    return ""
+    return "/novosite"
   end
 end
 
