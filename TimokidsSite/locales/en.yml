@@ -431,91 +431,91 @@ en:
     - theme: 
         <<: *theme_1
       title: "Happy birthday, Timolico"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_001.png"
     - theme:
         <<: *theme_1
       title: "The important thing is to participate"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_002.png"
     - theme:
         <<: *theme_1
       title: "Beauty of differences"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_003.png"
     - theme:
         <<: *theme_1
       title: "The magic words"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_004.png"
     - theme:
         <<: *theme_2
       title: "First day at school"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_005.png"
     - theme:
         <<: *theme_2
       title: "Where’s my car toy?"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_006.png"
     - theme:
         <<: *theme_2
       title: "Reading is fun"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_007.png"
     - theme:
         <<: *theme_2
       title: "Time to learn, playing is enough"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_008.png"
     - theme:
         <<: *theme_2
       title: "Go away, laziness!"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_009.png"
     - theme: 
         <<: *theme_3
       title: "Helping the blue planet"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_010.png"
     - theme:
         <<: *theme_4
       title: "I can’t eat"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_011.png"
     - theme:
         <<: *theme_4
       title: "Time to sleep, is time to rest"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_012.png"
     - theme:
         <<: *theme_4
       title: "Balanced meal does good!"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_013.png"
     - theme:
         <<: *theme_5
       title: "A life lesson"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_014.png"
     - theme:
         <<: *theme_5
       title: "This is my friend"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_015.png"
     - theme:
         <<: *theme_5
       title: "Brothers’ play"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_016.png"
     - theme:
         <<: *theme_5
       title: "My new brother"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_017.png"
     - theme:
         <<: *theme_5
       title: "A five star lesson"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_018.png"
     - theme:
         <<: *theme_5
       title: "Learning to share"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_019.png"
     - theme:
         <<: *theme_5
       title: "Lies don’t travel far"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_020.png"
     - theme:
         <<: *theme_5
       title: "The fear that lives in the room’s darkness"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_021.png"
     - theme:
         <<: *theme_5
       title: "Bath’s scent is great!"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_022.png"
 
   
   timolico_persons:

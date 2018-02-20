@@ -406,91 +406,91 @@ pt:
     - theme:
         <<: *theme_1
       desc: "Feliz aniversário Timolico"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_001.png"
     - theme:
         <<: *theme_1
       desc: "O importante é participar"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_002.png"
     - theme:
         <<: *theme_1
       desc: "Beleza nas diferenças"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_003.png"
     - theme:
         <<: *theme_1
       desc: "As palavrinhas mágicas"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_004.png"
     - theme:
         <<: *theme_2
       desc: "Primeiro dia de escola"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_005.png"
     - theme:
         <<: *theme_2
       desc: "Cadê meu carrinho?"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_006.png"
     - theme:
         <<: *theme_2
       desc: "Ler é muito divertido"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_007.png"
     - theme:
         <<: *theme_2
       desc: "Hora de aprender, hora de brincar"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_008.png"
     - theme:
         <<: *theme_2
       desc: "Xô preguiça!"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_009.png"
     - theme:
         <<: *theme_3
       desc: "Ajudando o planeta azul"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_010.png"
     - theme:
         <<: *theme_4
       desc: "Não posso comer"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_011.png"
     - theme:
         <<: *theme_4
       desc: "Hora de dormir é pra descansar"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_012.png"
     - theme:
         <<: *theme_4
       desc: "Alimentação balanceada faz bem!"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_013.png"
     - theme:
         <<: *theme_5
       desc: "Uma lição de vida"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_014.png"
     - theme:
         <<: *theme_5
       desc: "Esse amigo é meu"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_015.png"
     - theme:
         <<: *theme_5
       desc: "Brincadeira de irmãos"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_016.png"
     - theme:
         <<: *theme_5
       desc: "Meu novo irmão"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_017.png"
     - theme:
         <<: *theme_5
       desc: "Uma lição cinco estrelas"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_018.png"
     - theme:
         <<: *theme_5
       desc: "Aprendendo a dividir"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_019.png"
     - theme:
         <<: *theme_5
       desc: "Mentira tem perna curta"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_020.png"
     - theme:
         <<: *theme_5
       desc: "O medo que mora no escuro do quarto"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_021.png"
     - theme:
         <<: *theme_5
       desc: "Cheirinho de banho é bom!"
-      img: "products/logo_TKAPp.png"
+      img: "app/hist_timo/histTimo_022.png"
   
   timolico_persons:
     - img: "products/logo_TKAPp.png"
