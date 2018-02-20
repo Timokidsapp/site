@@ -15,9 +15,9 @@
             <% t(:travelers_hitories).each_with_index do |item,index| %>
                 <div class="item">
                     <%= image_tag item[:img] %>
-                    <p class="title"><%= item[:name] %></p>
+                    <p class="title"><%= item[:title] %></p>
                     <p><%= item[:desc] %></p>
-                    <div class="ball-theme center" style="background-color: <%= item[:color]%>;"></div>
+                    <div class="ball-theme center" style="background-color: <%= item[:theme][:color]%>;"></div>
                 </div> 
             <% end %>
             </div>

@@ -428,71 +428,93 @@ en:
   timolico_tab_2: "Characters"
 
   timolico_hitories: 
-    - <<: *theme_1
-      desc: "Happy birthday, Timolico"
+    - theme: 
+        <<: *theme_1
+      title: "Happy birthday, Timolico"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_1
-      desc: "The important thing is to participate"
+    - theme:
+        <<: *theme_1
+      title: "The important thing is to participate"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_1
-      desc: "Beauty of differences"
+    - theme:
+        <<: *theme_1
+      title: "Beauty of differences"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_1
-      desc: "The magic words"
+    - theme:
+        <<: *theme_1
+      title: "The magic words"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_2
-      desc: "First day at school"
+    - theme:
+        <<: *theme_2
+      title: "First day at school"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_2
-      desc: "Where’s my car toy?"
+    - theme:
+        <<: *theme_2
+      title: "Where’s my car toy?"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_2
-      desc: "Reading is fun"
+    - theme:
+        <<: *theme_2
+      title: "Reading is fun"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_2
-      desc: "Time to learn, playing is enough"
+    - theme:
+        <<: *theme_2
+      title: "Time to learn, playing is enough"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_2
-      desc: "Go away, laziness!"
+    - theme:
+        <<: *theme_2
+      title: "Go away, laziness!"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_3
-      desc: "Helping the blue planet"
+    - theme: 
+        <<: *theme_3
+      title: "Helping the blue planet"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "I can’t eat"
+    - theme:
+        <<: *theme_4
+      title: "I can’t eat"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Time to sleep, is time to rest"
+    - theme:
+        <<: *theme_4
+      title: "Time to sleep, is time to rest"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Balanced meal does good!"
+    - theme:
+        <<: *theme_4
+      title: "Balanced meal does good!"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "A life lesson"
+    - theme:
+        <<: *theme_5
+      title: "A life lesson"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "This is my friend"
+    - theme:
+        <<: *theme_5
+      title: "This is my friend"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "Brothers’ play"
+    - theme:
+        <<: *theme_5
+      title: "Brothers’ play"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "My new brother"
+    - theme:
+        <<: *theme_5
+      title: "My new brother"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "A five star lesson"
+    - theme:
+        <<: *theme_5
+      title: "A five star lesson"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "Learning to share"
+    - theme:
+        <<: *theme_5
+      title: "Learning to share"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "Lies don’t travel far"
+    - theme:
+        <<: *theme_5
+      title: "Lies don’t travel far"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "The fear that lives in the room’s darkness"
+    - theme:
+        <<: *theme_5
+      title: "The fear that lives in the room’s darkness"
       img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "Bath’s scent is great!"
+    - theme:
+        <<: *theme_5
+      title: "Bath’s scent is great!"
       img: "products/logo_TKAPp.png"
 
   
@@ -531,97 +553,122 @@ en:
   travelers_tab_2: "Characters"
 
   travelers_hitories: 
-    - <<: *theme_1
-      desc: "Everything I want is respect"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_1
-      desc: "Girls also know how to play"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_1
-      desc: "Together is merrier"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_1
-      desc: "Everything on its time"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_1
-      desc: "The bothering praise"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_2
-      desc: "My parents in the school"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_2
-      desc: "Studying to grow up"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_2
-      desc: "Respecting our teachers"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_3
-      desc: "Little years, big attitudes"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_3
-      desc: "Doing my share"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_3
-      desc: "Our friendly pet"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_3
-      desc: "A fair future"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_3
-      desc: "Recycling play"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_3
-      desc: "It’s children’s day"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_3
-      desc: "Preserving public goods"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Refuse the cigarette"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Observing the messages"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Smooth and aware traffic"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Preserving food"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Hello vaccine, bye-bye disease"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Play on the kitchen, never again!"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Any precaution, is little"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Too much sun, harms anyone"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_4
-      desc: "Avoidance is the best medicine"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "United family can wins"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "Loving our grandparents"
-      img: "products/logo_TKAPp.png"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "How is your home like?"
-      img: "products/logo_TKAPp.png"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "Helping is fun"
-      img: "products/logo_TKAPp.png"
-      img: "products/logo_TKAPp.png"
-    - <<: *theme_5
-      desc: "Learning the cycle of life"
-      img: "products/logo_TKAPp.png"
-      img: "products/logo_TKAPp.png"
+    - theme:
+        <<: *theme_1
+      title: "Everything I want is respect"
+      img: "app/hist_travelers/histViaj_001.png"
+    - theme:
+        <<: *theme_1
+      title: "Girls also know how to play"
+      img: "app/hist_travelers/histViaj_002.png"
+    - theme:
+        <<: *theme_1
+      title: "Together is merrier"
+      img: "app/hist_travelers/histViaj_003.png"
+    - theme:
+        <<: *theme_1
+      title: "Everything on its time"
+      img: "app/hist_travelers/histViaj_004.png"
+    - theme:
+        <<: *theme_1
+      title: "The bothering praise"
+      img: "app/hist_travelers/histViaj_005.png"
+    - theme:
+        <<: *theme_2
+      title: "My parents in the school"
+      img: "app/hist_travelers/histViaj_006.png"
+    - theme:
+        <<: *theme_2
+      title: "Studying to grow up"
+      img: "app/hist_travelers/histViaj_007.png"
+    - theme:
+        <<: *theme_2
+      title: "Respecting our teachers"
+      img: "app/hist_travelers/histViaj_008.png"
+    - theme: 
+        <<: *theme_3
+      title: "Little years, big attitudes"
+      img: "app/hist_travelers/histViaj_009.png"
+    - theme: 
+        <<: *theme_3
+      title: "Doing my share"
+      img: "app/hist_travelers/histViaj_010.png"
+    - theme: 
+        <<: *theme_3
+      title: "Our friendly pet"
+      img: "app/hist_travelers/histViaj_011.png"
+    - theme: 
+        <<: *theme_3
+      title: "A fair future"
+      img: "app/hist_travelers/histViaj_012.png"
+    - theme: 
+        <<: *theme_3
+      title: "Recycling play"
+      img: "app/hist_travelers/histViaj_013.png"
+    - theme: 
+        <<: *theme_3
+      title: "It’s children’s day"
+      img: "app/hist_travelers/histViaj_014.png"
+    - theme: 
+        <<: *theme_3
+      title: "Preserving public goods"
+      img: "app/hist_travelers/histViaj_015.png"
+    - theme:
+        <<: *theme_4
+      title: "Refuse the cigarette"
+      img: "app/hist_travelers/histViaj_016.png"
+    - theme:
+        <<: *theme_4
+      title: "Observing the messages"
+      img: "app/hist_travelers/histViaj_017.png"
+    - theme:
+        <<: *theme_4
+      title: "Smooth and aware traffic"
+      img: "app/hist_travelers/histViaj_018.png"
+    - theme:
+        <<: *theme_4
+      title: "Preserving food"
+      img: "app/hist_travelers/histViaj_019.png"
+    - theme:
+        <<: *theme_4
+      title: "Hello vaccine, bye-bye disease"
+      img: "app/hist_travelers/histViaj_020.png"
+    - theme:
+        <<: *theme_4
+      title: "Play on the kitchen, never again!"
+      img: "app/hist_travelers/histViaj_021.png"
+    - theme:
+        <<: *theme_4
+      title: "Any precaution, is little"
+      img: "app/hist_travelers/histViaj_022.png"
+    - theme:
+        <<: *theme_4
+      title: "Too much sun, harms anyone"
+      img: "app/hist_travelers/histViaj_023.png"
+    - theme:
+        <<: *theme_4
+      title: "Avoidance is the best medicine"
+      img: "app/hist_travelers/histViaj_024.png"
+    - theme:
+        <<: *theme_5
+      title: "United family can wins"
+      img: "app/hist_travelers/histViaj_025.png"
+    - theme:
+        <<: *theme_5
+      title: "Loving our grandparents"
+      img: "app/hist_travelers/histViaj_026.png"
+    - theme:
+        <<: *theme_5
+      title: "How is your home like?"
+      img: "app/hist_travelers/histViaj_027.png"
+    - theme:
+        <<: *theme_5
+      title: "Helping is fun"
+      img: "app/hist_travelers/histViaj_028.png"
+    - theme:
+        <<: *theme_5
+      title: "Learning the cycle of life"
+      img: "app/hist_travelers/histViaj_029.png"
 
   
   travelers_persons:
