@@ -13,7 +13,7 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-activate :i18n
+activate :i18n, :mount_at_root => :pt
 activate :directory_indexes
 
 # With alternative layout
@@ -43,7 +43,7 @@ helpers do
   def path(url, options = {})
     puts "&&&&&&#{options[:lang]}"
     lang = options[:lang] || I18n.locale.to_s
-    if lang.to_s == 'en'
+    if lang.to_s == 'pt'
       prefix = ''
     else
 
@@ -98,7 +98,7 @@ Dir.glob('locales/*').each do |file|
   yaml = transform_keys_to_symbols(YAML.load_file(file))[localeID]
   yaml[:campaings].each do |item|
     if item[:has_detail]
-      page = "#{localeID == :en ? '' :'/'+localeID.to_s}/campaings/#{item[:title]}.html"
+      page = "#{localeID == :pt ? '' :'/'+localeID.to_s}/campaings/#{item[:title]}.html"
       puts "creating #{page}"
       proxy page, "/campaings/template.html", :locals => { :title => item[:title], :item => item }, locale: localeID, :ignore => true
     end
@@ -106,7 +106,7 @@ Dir.glob('locales/*').each do |file|
 
   yaml[:games_all].each do |item|
     if item[:has_detail]
-      page = "#{localeID == :en ? '' :'/'+localeID.to_s}/games/#{item[:title]}.html"
+      page = "#{localeID == :pt ? '' :'/'+localeID.to_s}/games/#{item[:title]}.html"
       puts "creating #{page}"
       proxy page, "/games/detail#{item[:template]}.html", :locals => { :title => item[:title], :item => item }, locale: localeID, :ignore => true
     end
