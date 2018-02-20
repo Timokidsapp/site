@@ -1687,8 +1687,15 @@ ul {
                 font-family: $moskSemiBold;
                 font-size: $itemTitleSize;
             }
-            .office {
+            .lkdl {
+
                 margin-bottom: 10px;
+                img {
+                    width: 20px;
+                }
+            }
+            .office {
+                margin-bottom: 5px;
             }
             
         }

@@ -7,6 +7,13 @@
                 <%= image_tag item[:img] %>
                 <div class="title"><%= item[:name] %></div>
                 <div class="office"><%= item[:office] %></div>
+                <% if !item[:linkedl].nil? %>
+                <div class="lkdl">
+                    <a href="<%= item[:linkedl] %>" target="_blank">
+                    <%= image_tag 'rodape_LinkedIn.png' %>
+                    </a>
+                </div>
+                <% end %>
                 <div><%= item[:desc] %> </div>
             </div>
         <% end %>
