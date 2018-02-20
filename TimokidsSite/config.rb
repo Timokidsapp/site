@@ -68,6 +68,13 @@ helpers do
   def root_url() 
     return "/novosite"
   end
+
+  def page_title(page)
+    return page.data.title.send(I18n.locale) if
+      page.data.title.is_a?(Hash) && page.data.title[I18n.locale]
+    return page.data.title if page.data.title
+    return "Fallback Title"
+  end
 end
 
 # Build-specific configuration
