@@ -846,6 +846,7 @@ ul {
         .h-imp {
             height: 100%;
             .content {
+                
                 height: 100%;
                 padding: 40px;
                 text-align: center;
@@ -882,10 +883,16 @@ ul {
                     margin-top: -17px;
                     z-index: 1;
                 }
+
+                @include respond-to($phone) {
+                    padding: 0px
+                }
+
             }
             
         }
     }
+    
 }
 
 
