@@ -23,10 +23,10 @@
                 <ul class="inline-list">
                     <li><%= link_to t(:contact), path('/contact.html') %></li>
                     <li class="lang-img">
-                        <% link_to  path(current_page.path,{:lang => "pt"}) do%>
+                        <% link_to  path(current_page.path,{:lang => "pt"}), locale: :pt do%>
                             <%= image_tag 'pt.png' %>
                         <% end %>
-                        <% link_to  path(current_page.path,{:lang => "en"}) do%>
+                        <% link_to  path(current_page.path,{:lang => "en"}), locale: :en do%>
                             <%= image_tag 'en.png' %>
                         <% end %>
                     </li>
